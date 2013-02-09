@@ -45,8 +45,8 @@
     </xsl:template>
     
     <xsl:template match="toc[@container-level='legis-body-container']">
-        <a class="toggle" onclick="toggleVis('toc')" href="#">Show/Hide Table of Contents</a>
-        <div class="toc" id="toc" style="display:block;">Table of Contents:<br />
+        <br/><a class="toggle" onclick="toggleVis('toc')" href="#">Show/Hide Table of Contents</a>
+        <br/><div class="toc" id="toc" style="display:block;"><span style="font-size: 18px; font-weight: bold;">Table of Contents:</span><br />
             <xsl:apply-templates></xsl:apply-templates>
         </div>        
     </xsl:template>
