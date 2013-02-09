@@ -6,6 +6,7 @@ div.billTitle {
     text-align: center;
 }
 
+/*
 div.blockquote{
     background-color: #eee;
     border-left: 3px solid #bbb;
@@ -14,7 +15,18 @@ div.blockquote{
     margin-left: 45px;
     margin-right: 100px;
 }
-
+*/
 span.header {
     font-weight: bold;
+}
+
+div.blockquote{
+    background-color: #eee;
+    margin-left: 45px;
+    margin-right: 100px;
+    border-left: 3px solid #bbb;
+    padding-left: 10px;
+}
+
+div.afterBlockquote {
 }

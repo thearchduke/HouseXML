@@ -71,37 +71,58 @@
         
     </xsl:template>
 
-    <xsl:template match="//paragraph">
+    <xsl:template match="quoted-block">
+        <div class="blockquote">
+            <xsl:apply-templates></xsl:apply-templates>
+        </div>
+        <xsl:apply-templates select="after-quoted-block" mode="after"></xsl:apply-templates>
+    </xsl:template>
+    
+<!-- WTF CONGRESS what is this 'after-quoted-block' being inside 'quoted-block' nonsense -->
+        
+    <xsl:template match="after-quoted-block">
+    </xsl:template>
+
+    <xsl:template match="after-quoted-block" mode="after">
+        <xsl:if test="not(self::node()[text()='.'])">
+            <div class="afterBlockquote">
+                <xsl:apply-templates></xsl:apply-templates>
+            </div>
+        </xsl:if>
+    </xsl:template>
+    
+
+    <xsl:template match="paragraph">
         <p class="bodyPara"><a name="{@id}"></a>
             <xsl:apply-templates></xsl:apply-templates>
         </p>
     </xsl:template>
 
-    <xsl:template match="//enum">
+    <xsl:template match="enum">
         <xsl:apply-templates></xsl:apply-templates>&#xa0;
     </xsl:template>
 
-    <xsl:template match="//section">
+    <xsl:template match="section">
         <div class="section"><a name="{@id}"></a>
             <xsl:apply-templates></xsl:apply-templates>
         </div>
     </xsl:template>
 
-    <xsl:template match="//subsection">
+    <xsl:template match="subsection">
         <div class="subsection"><a name="{@id}"></a>
             <xsl:apply-templates></xsl:apply-templates>
         </div>
     </xsl:template>
 
-    <xsl:template match="//header">
+    <xsl:template match="header">
         <span class="header">
             <xsl:apply-templates></xsl:apply-templates><br/>&#xa0;&#xa0;&#xa0;
         </span>
     </xsl:template>
     
 
-    <xsl:template match="//form"></xsl:template>
-    <xsl:template match="//dublinCore"></xsl:template>
+    <xsl:template match="form"></xsl:template>
+    <xsl:template match="dublinCore"></xsl:template>
 
 
 
