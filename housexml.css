@@ -1,0 +1,43 @@
+stress {
+    font-weight: bold;
+}
+
+foreign {
+    font-style: italic;
+}
+
+mention {
+    font-style: italic;
+}
+
+#bodyPara {
+    font-size: 14px;
+}
+
+h1.title {
+    font-size: 32px;
+    color: blue;
+}
+
+h2.author {
+    font-size: 24px;
+    color: green;
+}
+
+h3.date {
+    font-size: 20px;
+    color: green;
+}
+
+body {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #abcdef;
+    padding: 10px;
+}
+
+a.fn {
+    font-size: 12px;
+    vertical-align: super;
+}

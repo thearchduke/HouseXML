@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="billres.xsl"?>
+<!--<?xml version="1.0"?>-->
+<!--<!DOCTYPE bill PUBLIC "-//US Congress//DTDs/bill.dtd//EN" "C:\Program Files\Blast Radius\rules\bill.dtd" []>-->
+<!DOCTYPE bill PUBLIC "-//US Congress//DTDs/bill v2.8 20020720//EN" "http://thomas.loc.gov/dtd/bill.dtd">
+<bill bill-stage="Introduced-in-House" bill-type="olc" dms-id="HD59D3EB6F1054C528BFAA8006BBA4CD8" public-private="public">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dublinCore>
+<dc:title>111 HR 105 IH: Voting Opportunity and Technology Enhancement Rights Act of 2009</dc:title>
+<dc:publisher>U.S. House of Representatives</dc:publisher>
+<dc:date>2009-01-06</dc:date>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+</dublinCore>
+</metadata>
+<form>
+		<distribution-code display="yes">I</distribution-code>
+		<congress>111th CONGRESS</congress>
+		<session>1st Session</session>
+		<legis-num>H. R. 105</legis-num>
+		<current-chamber>IN THE HOUSE OF REPRESENTATIVES</current-chamber>
+		<action>
+			<action-date date="20090106">January 6, 2009</action-date>
+			<action-desc><sponsor name-id="C000714">Mr. Conyers</sponsor> (for
+			 himself, <cosponsor name-id="N000002">Mr. Nadler of New York</cosponsor>,
+			 <cosponsor name-id="J000032">Ms. Jackson-Lee of Texas</cosponsor>,
+			 <cosponsor name-id="W000314">Mr. Wexler</cosponsor>, and
+			 <cosponsor name-id="C001068">Mr. Cohen</cosponsor>) introduced the following
+			 bill; which was referred to the <committee-name committee-id="HJU00">Committee
+			 on the Judiciary</committee-name>, and in addition to the Committees on
+			 <committee-name committee-id="HHA00">House Administration</committee-name> and
+			 <committee-name committee-id="HGO00">Oversight and Government
+			 Reform</committee-name>, for a period to be subsequently determined by the
+			 Speaker, in each case for consideration of such provisions as fall within the
+			 jurisdiction of the committee concerned</action-desc>
+		</action>
+		<legis-type>A BILL</legis-type>
+		<official-title>To protect voting rights and to improve the
+		  administration of Federal elections, and for other purposes.</official-title>
+	</form>
+	<legis-body id="H167515869F56463889EBCD8F723EA648" style="OLC">
+		<section display-inline="no-display-inline" id="H438648C08B9A4DD380B0C16847A9AB00" section-type="section-one"><enum>1.</enum><header>Short title; table of
+			 contents</header>
+			<subsection id="HBAE29824374543B2009320DAA8DB7F26"><enum>(a)</enum><header>Short
+			 Title</header><text display-inline="yes-display-inline">This Act may be cited
+			 as the <quote><short-title>Voting Opportunity and
+			 Technology Enhancement Rights Act of 2009</short-title></quote>.</text>
+			</subsection><subsection id="H84191E71CFA84DB5A1054E6515393FC8"><enum>(b)</enum><header>Table of
+			 Contents</header><text display-inline="yes-display-inline">The table of
+			 contents of this Act is as follows:</text>
+				<toc container-level="legis-body-container" lowest-bolded-level="division-lowest-bolded" lowest-level="section" quoted-block="no-quoted-block" regeneration="yes-regeneration">
+					<toc-entry idref="H438648C08B9A4DD380B0C16847A9AB00" level="section">Sec. 1. Short title; table of contents.</toc-entry>
+					<toc-entry idref="H68764B70B00F41678927BBE12CA64596" level="title">Title I—Improving Election Administration</toc-entry>
+					<toc-entry idref="H2121640230234392AE8C78BDFA530069" level="section">Sec. 101. National Federal write-in absentee
+				ballot.</toc-entry>
+					<toc-entry idref="HF50CAD52F0A2491F9F38054D9362FDCF" level="section">Sec. 102. Verified ballots; preservation.</toc-entry>
+					<toc-entry idref="HCB1CBA3BF902498AA57CB2456293D854" level="section">Sec. 103. Requirements for counting provisional
+				ballots.</toc-entry>
+					<toc-entry idref="H7103C4C2CB294D24802EBEDA66A84E39" level="section">Sec. 104. Minimum requirements for voting systems and poll
+				workers in polling places.</toc-entry>
+					<toc-entry idref="H9185B73D976F4FAD82A1DD895076FE4" level="section">Sec. 105. Election day registration.</toc-entry>
+					<toc-entry idref="H86D506F13B324232BE19D02FD242C688" level="section">Sec. 106. Integrity of voter registration list.</toc-entry>
+					<toc-entry idref="H4DB47F34513A4BEF9331AAEBD26665D4" level="section">Sec. 107. Early voting.</toc-entry>
+					<toc-entry idref="H325F991B67D545F48091E9630432858D" level="section">Sec. 108. Improvements to voting systems.</toc-entry>
+					<toc-entry idref="H7525CD21376A4ADD8B38203ED6A02EF5" level="section">Sec. 109. Voter registration.</toc-entry>
+					<toc-entry idref="H4B318E18B95846599DA207581086924C" level="section">Sec. 110. Establishing voter identification.</toc-entry>
+					<toc-entry idref="HEC23086057DC4DFF991900152D1BA57D" level="section">Sec. 111. Impartial administration of elections.</toc-entry>
+					<toc-entry idref="H67DA4FD41C6C472B9D45409214291513" level="section">Sec. 112. Strengthening the Election Assistance
+				Commission.</toc-entry>
+					<toc-entry idref="HAE1359BD012D429080E6BA6ACCBA2B1" level="section">Sec. 113. Additional protections to ensure fair administration
+				of Federal elections.</toc-entry>
+					<toc-entry idref="HBEBBC11FC72D428CAE07CD9189B60835" level="section">Sec. 114. Authorization of appropriations.</toc-entry>
+					<toc-entry idref="H43F76D5784FC4A1900E6BA38AB6FDCE" level="section">Sec. 115. Effective date.</toc-entry>
+					<toc-entry idref="HF2093CF78DC345B582FBB6B3FB4DCC9E" level="title">Title II—Prohibiting Deceptive Practices</toc-entry>
+					<toc-entry idref="H32752C3222E24271B3E98DE996DDCDD8" level="section">Sec. 201. Prohibition on deceptive practices in Federal
+				elections.</toc-entry>
+					<toc-entry idref="H29C994194A9F42A0A1C9FBE83D1A754" level="section">Sec. 202. Modification of penalty for voter
+				intimidation.</toc-entry>
+					<toc-entry idref="H2D652603520B4A229510FB8198128481" level="section">Sec. 203. Sentencing guidelines.</toc-entry>
+					<toc-entry idref="H80412079AA6A41D08FE3C10800CFFB34" level="section">Sec. 204. Reporting violations and remedial action.</toc-entry>
+					<toc-entry idref="H7245B1585EFA481185AD269DAF9D12EC" level="title">Title III—Prohibiting Voter Caging</toc-entry>
+					<toc-entry idref="HF4C449BF74A646548690651D4314BF1C" level="section">Sec. 301. Voter caging and other questionable challenges
+				prohibited.</toc-entry>
+					<toc-entry idref="HFCAFF4181F5544748D3D3BC00A7ABAE" level="section">Sec. 302. Severability.</toc-entry>
+					<toc-entry idref="HB92B0378CE514560A4148E6D59628962" level="title">Title IV—Restoring Voting Rights</toc-entry>
+					<toc-entry idref="HE8F24C06B9C441959F7F9739E7732D17" level="section">Sec. 401. Rights of citizens.</toc-entry>
+					<toc-entry idref="HCA6549E767FC4222B0076814009836B4" level="section">Sec. 402. Enforcement.</toc-entry>
+					<toc-entry idref="HC6CED13299C3451B9F8D00DCB9038348" level="section">Sec. 403. Notification of restoration of voting
+				rights.</toc-entry>
+					<toc-entry idref="HEA3110F05BA5443B8FABF8D9686DDEE" level="section">Sec. 404. Definitions.</toc-entry>
+					<toc-entry idref="HF12DA6544450409893912C48935B34F1" level="section">Sec. 405. Relation to other laws.</toc-entry>
+					<toc-entry idref="HB5EB7AAF7B4F4294B25C21AF97C900E8" level="section">Sec. 406. Federal prison funds.</toc-entry>
+					<toc-entry idref="HACDB7677E9E34C9596E64C68D9239F61" level="section">Sec. 407. Effective date.</toc-entry>
+					<toc-entry idref="H44E7385E53C94D89B975A0B14900F33D" level="title">Title V—Election Day as Legal Public Holiday</toc-entry>
+					<toc-entry idref="H382E5A7C69104CA08CF3AF7E83C4515" level="section">Sec. 501. Treatment of election day in same manner as legal
+				public holiday for purposes of Federal employment.</toc-entry>
+					<toc-entry idref="HDBA47AE87AFE4FD999AF8525B8C01011" level="section">Sec. 502. Study by Comptroller General of impact on voter
+				participation.</toc-entry>
+					<toc-entry idref="HB3C66F869C1841AE94007BFA761EA6AA" level="section">Sec. 503. Sense of Congress regarding treatment of day by
+				private employers.</toc-entry>
+				</toc>
+			</subsection></section><title id="H68764B70B00F41678927BBE12CA64596"><enum>I</enum><header>Improving Election
+			 Administration</header>
+			<section id="H2121640230234392AE8C78BDFA530069"><enum>101.</enum><header>National
+			 Federal write-in absentee ballot</header>
+				<subsection id="H2573B51482B445DC8B1F91AC2CB448E5"><enum>(a)</enum><header>Requiring States
+			 To Accept Ballot</header>
+					<paragraph id="HB91CE26D5B294D619DB3344CD6EA0DB"><enum>(1)</enum><header>In
+			 general</header><text>Title III of the Help America Vote Act of 2002 (42 U.S.C.
+			 15481 et seq.) is amended by adding at the end the following new
+			 subtitle:</text>
+						<quoted-block id="H92E4058229BC46D2935F6838B508C1DB">
+							<subtitle id="H1BF034BB8A394227809DE16D51C8DC18"><enum>C</enum><header>Additional
+				requirements</header>
+								<section id="H769447EEE9014DA0BDF540C9CAD4F9D"><enum>321.</enum><header>Use of National
+				Federal write-in absentee ballot</header>
+									<subsection id="HCB70EDCBA96B4FCB8C29DD7BE1F84CE"><enum>(a)</enum><header>In
+				general</header><text>Any person who is otherwise qualified to vote in a
+				Federal election in a State shall be permitted to use the national Federal
+				write-in absentee ballot prescribed by the Commission under section 297 to cast
+				a vote in an election for Federal office.</text>
+									</subsection><subsection id="HC735904ADC7F4331B5108B8D99686BC"><enum>(b)</enum><header>Submission and
+				processing</header>
+										<paragraph id="H2D9FC459841E42ED87499F02D3688FA0"><enum>(1)</enum><header>In
+				general</header><text>Except as otherwise provided in this section, a national
+				Federal write-in absentee ballot shall be submitted and processed in the manner
+				provided under the standards prescribed by the Commission under section
+				297(b).</text>
+										</paragraph><paragraph id="HABDEC008F0904E0EAC91CFC09EB6CB19"><enum>(2)</enum><header>Deadline</header><text>An
+				otherwise eligible national Federal write-in absentee ballot shall be counted
+				if postmarked or signed before the close of the polls on election day and
+				received by the appropriate State election official on or before the date which
+				is 10 days after the date of the election or the date provided for receipt of
+				absentee ballots under State law, whichever is later.</text>
+										</paragraph></subsection><subsection id="HD5F8AB2F009E4773AEF8069D8CD91BB6"><enum>(c)</enum><header>Special
+				rules</header><text>The following rules shall apply with respect to national
+				Federal write-in absentee ballots:</text>
+										<paragraph id="H092D890213524CA9A33904BFDF3B1CA"><enum>(1)</enum><text>In completing the
+				ballot, the voter may designate a candidate by writing in the name of the
+				candidate or by writing in the name of a political party (in which case the
+				ballot shall be counted for the candidate of that political party).</text>
+										</paragraph><paragraph id="HCF3645FABE854F44ACF45EB70563A3A4"><enum>(2)</enum><text>In the case of the
+				offices of President and Vice President, a vote for a named candidate or a vote
+				by writing in the name of a political party shall be counted as a vote for the
+				electors supporting the candidate involved.</text>
+										</paragraph><paragraph id="HD8323A518B83483B8863C4B248408D1D"><enum>(3)</enum><text>Any abbreviation,
+				misspelling, or other minor variation in the form of the name of a candidate or
+				a political party shall be disregarded in determining the validity of the
+				ballot.</text>
+										</paragraph></subsection><subsection id="HD8A9B815D4D8433A9D527F74EED346F7"><enum>(d)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+									</subsection></section></subtitle><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HA2B1A0A6C39847D880C1087C7D865E03"><enum>(2)</enum><header>Conforming
+			 amendment relating to enforcement</header><text>Section 401 of the Help America
+			 Vote Act of 2002 (<external-xref legal-doc="usc" parsable-cite="usc/42/15511">42 U.S.C. 15511</external-xref>) is amended by striking <quote>and
+			 303</quote> and inserting <quote>303, and subtitle C</quote>.</text>
+					</paragraph><paragraph id="H3B272661884A482D9920006CA0DE167E"><enum>(3)</enum><header>Clerical
+			 amendment</header><text>The table of contents of title III of such Act is
+			 amended by adding at the end the following:</text>
+						<quoted-block display-inline="no-display-inline" id="H4DF7C31651BD40D297BFBB81B275176B" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="subtitle">Subtitle C—Additional
+				Requirements</toc-entry>
+								<toc-entry level="section">Sec. 321. Use of national Federal write-in
+				absentee
+				ballot.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="HEC8762EE7B4E48EFB7461F10BB1F5289"><enum>(b)</enum><header>Guidance and
+			 Standards for National Federal write-in absentee ballot</header>
+					<paragraph id="H84ABDE2B75584F4EA893CAAE92535D8"><enum>(1)</enum><header>In
+			 general</header><text>Title II of the Help America Vote Act of 2002 (42 U.S.C.
+			 15321 et seq.) is amended by adding at the end the following new
+			 subtitle:</text>
+						<quoted-block id="HFAFCF77ABB1947F2B26059E716E7739E">
+							<subtitle id="HF5CF47D4B5A04AA2BE6965BFDFAFC8E"><enum>E</enum><header>Guidance and
+				standards</header>
+								<section id="H5BBCBAE40EA44030B2D180DEF1B350C6"><enum>297.</enum><header>National
+				Federal write-in absentee ballot</header>
+									<subsection id="HFC82F0AE24AA4F33BFDA05A0F7B655A7"><enum>(a)</enum><header>Form of
+				ballot</header><text>The Commission shall prescribe a national Federal write-in
+				absentee ballot (including a secrecy envelope and mailing envelope for such
+				ballot) for use in elections for Federal office.</text>
+									</subsection><subsection id="HC07297CEC68848498FEDF23A1814BA0"><enum>(b)</enum><header>Standards</header><text>The
+				Commission shall prescribe standards for—</text>
+										<paragraph id="H91A78E33A70D4191A85E7C9561795279"><enum>(1)</enum><text>distributing the
+				national Federal write-in absentee ballot, including standards for distributing
+				such ballot through the Internet; and</text>
+										</paragraph><paragraph id="H892A16E9EEEE4CA0819BF8E015ED7379"><enum>(2)</enum><text>processing and
+				submission of the national Federal write-in absentee
+				ballot.</text>
+										</paragraph></subsection></section></subtitle><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H21C997C38985440CA1B195BF95D14F09"><enum>(2)</enum><header>Conforming
+			 amendment</header><text>Section 202 of the Help America Vote Act of 2002 (42
+			 U.S.C. 15322) is amended—</text>
+						<subparagraph id="H9AD0411A37494969B547F99E3D2C0600"><enum>(A)</enum><text>by redesignating
+			 paragraphs (5) and (6) as paragraphs (6) and (7); and</text>
+						</subparagraph><subparagraph id="HA117ABE2B2EA410CA0DC290084BD79E"><enum>(B)</enum><text>by inserting after
+			 paragraph (4) the following new paragraph:</text>
+							<quoted-block id="H8E4008DB5F3A4551A95F7116768607BF">
+								<paragraph id="H6E43731D2B9D449292F8167796AACB80"><enum>(5)</enum><text>carrying out the
+				duties described in subtitle
+				E;</text>
+								</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph><paragraph id="HD6C6E9F4A8804022807918CE1268BC56"><enum>(3)</enum><header>Clerical
+			 amendment</header><text>The table of contents for title II of such Act is
+			 amended by adding at the end the following:</text>
+						<quoted-block display-inline="no-display-inline" id="HB4E58C2B229C43A5917E00F9B438AEA2" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="subtitle">Subtitle E—Guidance and
+				Standards</toc-entry>
+								<toc-entry level="section">Sec. 297. National Federal write-in
+				absentee
+				ballot.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H0EE1322AE8994B70A355005143221305"><enum>(c)</enum><header>Coordination
+			 with Uniformed and Overseas Citizens Absentee Voting Act</header>
+					<paragraph id="HB47359EA763E48A4BB9FDD5B00A68D6"><enum>(1)</enum><header>In
+			 general</header><text>The Presidential designee under the Uniformed and
+			 Overseas Absentee Voting Act, in consultation with the Election Assistance
+			 Commission, shall facilitate the use and return of the national Federal
+			 write-in ballot prescribed by the Commission under section 297 of the Help
+			 America Vote Act of 2002 (as added by subsection (b)(1)) for absent uniformed
+			 service voters and overseas voters so that such voters face no greater
+			 difficulties in the submission and processing of their ballots than those faced
+			 by absentee voters who reside in the United States.</text>
+					</paragraph><paragraph id="HDB080A49F81B42AC9FBC048998FF4C8B"><enum>(2)</enum><header>Definitions</header><text>The
+			 terms <term>absent uniformed service voter</term> and <term>overseas
+			 voter</term> shall have the meanings given such terms by section 107 of the
+			 Uniformed and Overseas Citizens Absentee Voting Act (42 U.S.C.
+			 1973gg–6).</text>
+					</paragraph></subsection></section><section id="HF50CAD52F0A2491F9F38054D9362FDCF"><enum>102.</enum><header>Verified
+			 Ballots; Preservation</header>
+				<subsection id="H9706A687035447899EC182E1C1FB100"><enum>(a)</enum><header>Verification</header>
+					<paragraph id="H6576D1A427874893899EE090A758FB55"><enum>(1)</enum><header>In
+			 general</header><text>Section 301(a) of the Help America Vote Act of 2002 (42
+			 U.S.C. 15481(a)) is amended by adding at the end the following new
+			 paragraph:</text>
+						<quoted-block id="H7472939B656C4641BECAFD7C41E00000">
+							<paragraph id="HB92DCFC4E8E9452C85B751985F694B95"><enum>(7)</enum><header>Verified
+				ballots</header><text>In order to meet the requirements of paragraph (1)(A)(i),
+				on and after January 1, 2011:</text>
+								<subparagraph id="HD435DB5E8FE24EF1AEAAEFCE54F8601"><enum>(A)</enum><text>The voting system
+				shall provide an independent means of voter verification which meets the
+				requirements of subparagraph (B) and which allows each voter to verify the
+				accuracy of the ballot before it is cast and counted, and to correct any errors
+				before the record of the ballot is produced and preserved under this paragraph
+				and paragraph (2)(B)(iii).</text>
+								</subparagraph><subparagraph id="H2B7871D518CD40F585B7178294B23027"><enum>(B)</enum><text>A means of voter
+				verification meets the requirements of this subparagraph if the voting system
+				allows the voter to choose from one of the following options to verify the
+				voter’s vote selection:</text>
+									<clause id="H8FD1D02A5B5845FB96919E342500C822"><enum>(i)</enum><text>A
+				paper record.</text>
+									</clause><clause id="H1610DBEB1CE84C899C352B0966E3BBF7"><enum>(ii)</enum><text>An audio
+				record.</text>
+									</clause><clause id="H1B37D2A5A8844BF3B7D923573E38199B"><enum>(iii)</enum><text>A pictorial
+				record.</text>
+									</clause><clause id="H6E4C2562FAAA411E0079D4821BE0209"><enum>(iv)</enum><text>An
+				electronic record or other means that provides for voter verification that is
+				accessible for individuals with disabilities, including nonvisual accessibility
+				for the blind and visually impaired, in a manner that provides privacy and
+				independence equal to that provided for other voters.</text>
+									</clause></subparagraph><subparagraph id="H7077E5FE436E464EA953DED8BBA47C80"><enum>(C)</enum><text>Any means of
+				verification described in clause (ii), (iii), or (iv) of subparagraph (B) must
+				provide verification which is equal or superior to verification through the use
+				of a paper record.</text>
+								</subparagraph><subparagraph id="HDC22843F9F71422BA60025B5811F0092"><enum>(D)</enum><text>None of the means
+				of verification under this paragraph may employ cryptography in the
+				record.</text>
+								</subparagraph></paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H80AB1B38F2D34D4DA72665BEDA7585EE"><enum>(2)</enum><header>Conforming
+			 amendment</header><text>Clause (i) of section 301(a)(1)(A) of such Act (42
+			 U.S.C. 15481(a)(1)(A)(i)) is amended by inserting <quote>and consistent with
+			 the requirements of paragraphs (2), (4), and (7)</quote> after
+			 <quote>independent manner</quote>.</text>
+					</paragraph></subsection><subsection id="H87246EFA05A24D7AB6147274E9AFC87B"><enum>(b)</enum><header>Preservation of
+			 Records</header><text display-inline="yes-display-inline">Section
+			 301(a)(2)(B)(iii) of such Act (<external-xref legal-doc="usc" parsable-cite="usc/42/15481">42 U.S.C. 15481(a)(2)(B)(iii)</external-xref>) is amended to
+			 read as follows:</text>
+					<quoted-block display-inline="no-display-inline" id="H8BBE812D56784032BC046F2D23BEFF62" style="OLC">
+						<clause id="H84BC36D5E6944577BC994FEF423C59D2"><enum>(iii)</enum><text>The record
+				produced to meet the requirements of paragraph (1)(A)(i) and this paragraph
+				shall be available as an official record for any audit or recount conducted
+				with respect to any election in which the system is used, and shall be
+				preserved after the voter has verified its accuracy—</text>
+							<subclause id="HB54E7042D1654C0C90291E48C74491B7"><enum>(I)</enum><text>in the case of a
+				paper record, within the polling place on the date of the election in a manner
+				that ensures the security of the votes as verified; and</text>
+							</subclause><subclause id="HEC03608453654F9B9918EA572B0093ED"><enum>(II)</enum><text display-inline="yes-display-inline">in the case of a record described in clause
+				(ii), (iii), or (iv) of paragraph (7)(B), through a method established by the
+				Commission which provides protection of the record equal to or superior to the
+				methods used to preserve paper
+				records.</text>
+							</subclause></clause><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection><subsection id="H0A0A6B2D239B4E77908CC2F0EFBBF063"><enum>(c)</enum><header>Guidance</header>
+					<paragraph id="HD42C3495257F48C9A61206B2455B23A3"><enum>(1)</enum><header>In
+			 General</header><text>Subtitle E of title II of such Act, as added by section
+			 101(b)(1), is amended by adding at the end the following new section:</text>
+						<quoted-block id="H8723099DA66745FD98DC81F281B6166D">
+							<section id="HDB913D9394664E0600E219E18DB96398"><enum>298.</enum><header>Verified
+				ballots</header>
+								<subsection id="H19F716AB0EB449D7B1F0DA9874A55089"><enum>(a)</enum><header>Standards</header><text display-inline="yes-display-inline">The Commission shall issue uniform and
+				nondiscriminatory standards—</text>
+									<paragraph id="HA980F780DEFE498A9FB51E7B49B8DDF"><enum>(1)</enum><text>for verified
+				ballots required under section 301(a)(7); and</text>
+									</paragraph><paragraph id="H644A377C68C541999CF6A178ACDD6067"><enum>(2)</enum><text>for meeting the
+				audit requirements of section 301(a)(2).</text>
+									</paragraph></subsection><subsection id="HC17FD3C3D79C497497F3EC9364CC959F"><enum>(b)</enum><header>Audits</header><text>The
+				standards issued under subsection (a) shall provide for partial audits of the
+				results of elections using the records produced pursuant to section 301(a)(7),
+				and shall provide that those records shall be used for the official count of
+				votes in the event that the tallies derived from the records differ from the
+				tallies otherwise derived from the voting system used in the election
+				involved.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H4871C6680DEF42B2A2FEF7DB7F930000"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added by this Act, is amended by adding at the end the following
+			 new item:</text>
+						<quoted-block display-inline="no-display-inline" id="HF82191AC2F1C45439348F64C13F26109" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 298. Verified
+				ballots.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H5E083E288F3A423AA367C0B72B624CD2"><enum>(d)</enum><header>Reports</header>
+					<paragraph id="H3E71476C32E3457986AC9B6232E97313"><enum>(1)</enum><header>Election
+			 Assistance Commission</header><text>Section 207 of such Act (<external-xref legal-doc="usc" parsable-cite="usc/42/15327">42 U.S.C. 15327</external-xref>)
+			 is amended—</text>
+						<subparagraph id="HCFF7E302233B4C20A500C4C819E63F84"><enum>(A)</enum><text>by redesignating
+			 paragraph (5) as paragraph (6); and</text>
+						</subparagraph><subparagraph id="H8C1496F474274B84926B8328C2130768"><enum>(B)</enum><text>by inserting after
+			 paragraph (4) the following new paragraph:</text>
+							<quoted-block id="HE52E74BA039C44A9B734C75258ED7685">
+								<paragraph id="H506D8207D5FE450E859C3C205360C1E5"><enum>(5)</enum><text>A description of
+				the progress on implementing the verified ballot requirements of section
+				301(a)(7) and the impact of the use of such requirements on the accessibility,
+				privacy, security, usability, and auditability of voting
+				systems.</text>
+								</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph><paragraph id="H35D67E7F683D42E700155D3200554D57"><enum>(2)</enum><header>State
+			 reports</header><text display-inline="yes-display-inline">Section 258 of such
+			 Act (<external-xref legal-doc="usc" parsable-cite="usc/42/15408">42 U.S.C. 15408</external-xref>) is amended—</text>
+						<subparagraph id="H83ABF9008B93464ABB699DAE38B626A4"><enum>(A)</enum><text>by striking
+			 <quote>and</quote> at the end of paragraph (2);</text>
+						</subparagraph><subparagraph id="HD703729CB4EE4A22A1E8BD598218249C"><enum>(B)</enum><text>by striking the
+			 period at the end of paragraph (3) and inserting <quote>; and</quote>;
+			 and</text>
+						</subparagraph><subparagraph id="H54D298C06FAE4961B7F178DD7BFBCD00"><enum>(C)</enum><text>by adding at the
+			 end the following new paragraph:</text>
+							<quoted-block id="H7CF2C6AF6DAA4CF6B05FA929A5AC9B8F">
+								<paragraph id="H62BB622DCA59404FA47603112428B2C9"><enum>(4)</enum><text>an analysis and
+				description in the form and manner prescribed by the Commission of the progress
+				on implementing the verified ballot requirements of section
+				301(a)(7).</text>
+								</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph></subsection></section><section id="HCB1CBA3BF902498AA57CB2456293D854"><enum>103.</enum><header>Requirements
+			 for counting provisional ballots</header>
+				<subsection id="H58482AF07DF349309670AAD336337B5F"><enum>(a)</enum><header>In
+			 general</header><text>Section 302 of the Help America Vote Act of 2002 (42
+			 U.S.C. 15482) is amended—</text>
+					<paragraph id="H1ED3FE156DD64518A08FB65E581700C0"><enum>(1)</enum><text>by redesignating
+			 subsection (d) as subsection (e); and</text>
+					</paragraph><paragraph id="H8F6BA0EFDD004BE4894DF68A5006B6C"><enum>(2)</enum><text>by
+			 inserting after subsection (c) the following new subsection:</text>
+						<quoted-block id="H0FC29DE21F4C4F1D8979D49B039153E4">
+							<subsection id="H15C0DD6FBA2649FC86E5E0E111F95BC"><enum>(d)</enum><header>Statewide
+				counting of provisional ballots</header><text>For purposes of subsection
+				(a)(4), notwithstanding at which polling place a provisional ballot is cast
+				within the State, the State shall count such ballot if the individual who cast
+				such ballot is otherwise eligible to vote in the
+				election.</text>
+							</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="HBCB69BF0C22B4D98AFAEA5D8D1CA4193"><enum>(b)</enum><header>Effective
+			 date</header><text display-inline="yes-display-inline">Section 302(e) of such
+			 Act (<external-xref legal-doc="usc" parsable-cite="usc/42/15482">42 U.S.C. 15482(e)</external-xref>), as redesignated by subsection (a), is amended to read
+			 as follows:</text>
+					<quoted-block display-inline="no-display-inline" id="HB17C1E3FBE6E4A389301B575685500F3" style="OLC">
+						<subsection id="HDF96032279124DE98EDFF894E0D91BCF"><enum>(e)</enum><header>Effective Date
+				for Provisional Voting and Voting Information</header>
+							<paragraph id="HDF2CE27287084E4A86CE7D02A1009615"><enum>(1)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Except as provided in
+				paragraph (2), each State and jurisdiction shall be required to comply with the
+				requirements fo this section on and after January 1, 2004.</text>
+							</paragraph><paragraph id="H7571FA803FEB4AEB00E08D933240B0C5"><enum>(2)</enum><header>Statewide
+				counting of provisional ballots</header><text>Each State shall be required to
+				comply with the requirements of subsection (d) on and after January 1,
+				2011.</text>
+							</paragraph></subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection></section><section id="H7103C4C2CB294D24802EBEDA66A84E39"><enum>104.</enum><header>Minimum
+			 Requirements for voting systems and poll workers in polling places</header>
+				<subsection id="HDB57907CD98A463B00C7F5E35F53F83"><enum>(a)</enum><header>Minimum
+			 Requirements</header>
+					<paragraph id="HA680E217A7904860A791B840CB11DC8F"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of the Help America Vote Act of
+			 2002, as added by section 101(a)(1), is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="H3A390D5E351D44D0B000A4CFEE722FEF">
+							<section id="HD2FB7540126D4C578E27ACA8D74BE765"><enum>322.</enum><header>Minimum
+				requirements for voting systems and poll workers</header>
+								<subsection id="H3790CB5F87244852964DF48BE33428B6"><enum>(a)</enum><header>In
+				general</header><text display-inline="yes-display-inline">Each State shall
+				provide for the minimum required number of functioning and accurate voting
+				systems and poll workers required in each precinct on the day of any Federal
+				election and on any days during which such State allows early voting for a
+				Federal election in accordance with the standards determined under section
+				299A.</text>
+								</subsection><subsection id="H9B3E0E814D5449F2ACBFC010F21FBAD6"><enum>(b)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H61E3EB224CF84551B83C8D78D0005F66"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added by section 101(a)(3), is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H3D7C3131E1E64E82ADEAC8156DFC899F" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 322. Minimum required voting systems
+				and poll
+				workers.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H7F1F112258164A598BA972DDD8DEF864"><enum>(b)</enum><header>Standards</header>
+					<paragraph id="H4EC29552CF6547C9AEA8DDC6C1BCA4"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of title II of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+						<quoted-block id="HFD59096D29144E49AA3854CFBAF3A8B5">
+							<section id="H25A59A0000F544B78FCE9C974D87500"><enum>299.</enum><header>Standards for
+				establishing the minimum required voting systems and poll workers</header>
+								<subsection id="H2AD8CE1F35114ADD900000A5CA9EFDE9"><enum>(a)</enum><header>In
+				general</header><text>The Commission shall issue standards regarding the
+				minimum number of voting systems and poll workers required in each precinct on
+				the day of any Federal election and on any days during which early voting is
+				allowed for a Federal election.</text>
+								</subsection><subsection id="HF1088310317E48F68DB39083FE02076"><enum>(b)</enum><header>Distribution</header><text display-inline="yes-display-inline">The standards described in subsection (a)
+				shall provide for a uniform and nondiscriminatory geographic distribution of
+				such systems and workers, based on a ratio of the number of systems and workers
+				per voter, taking into account voter registration statistics for the precinct,
+				the most recent available census data regarding the number of individuals
+				residing within the precinct who are eligible to register to vote, and the
+				level of voter turnout during previous elections held in the precinct.</text>
+								</subsection><subsection id="HB61B81FEBDC6464382A465FEA4347FE8"><enum>(c)</enum><header>Deviation</header><text>The
+				standards described in subsection (a) shall permit States, upon providing
+				adequate public notice, to deviate from any allocation requirements in the case
+				of unforeseen circumstances such as a natural disaster, terrorist attack, or a
+				change in voter
+				turnout.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H2FD8E2C780EA44B581B3D34F7200085C"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H3646757141D942F09326BAB7330D8A6" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299. Standards for establishing the
+				minimum required voting systems and poll
+				workers.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection></section><section id="H9185B73D976F4FAD82A1DD895076FE4"><enum>105.</enum><header>Election day
+			 registration</header>
+				<subsection id="H4F14EE2E237947868DF944CD8BF63971"><enum>(a)</enum><header>Requirement</header>
+					<paragraph id="H3884AEC8619B4420B88DDBC17E6024C"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of the Help America Vote Act of
+			 2002, as added and amended by this Act, is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="HD98F5EC9CB8E44A6A51EB77FAA62A">
+							<section id="H7C205C9B209242FF903DA3F8C02DB596"><enum>323.</enum><header>Election day
+				registration</header>
+								<subsection id="H1192E77C19B14B9F00D8BA31F09093D1"><enum>(a)</enum><header>In
+				general</header>
+									<paragraph id="H3732EB31A347424B9C4FEB1869334F23"><enum>(1)</enum><header>Registration</header><text>Notwithstanding
+				section 8(a)(1)(D) of the National Voter Registration Act of 1993 (42 U.S.C.
+				1973gg–6), each State shall permit any individual on the day of a Federal
+				election—</text>
+										<subparagraph id="H49DD62D52A604D46A688C55938671104"><enum>(A)</enum><text>to register to
+				vote in such election at the polling place using the form established by the
+				Commission pursuant to section 297; and</text>
+										</subparagraph><subparagraph id="HAEE78B6AF8FB4EFFBBC561DD4E19C4BD"><enum>(B)</enum><text>to cast a vote in
+				such election.</text>
+										</subparagraph></paragraph><paragraph id="HBC0A78E808484EC19FEF3067D75673FE"><enum>(2)</enum><header>Exception</header><text>The
+				requirements under paragraph (1) shall not apply to a State in which, under a
+				State law in effect continuously on and after the date of the enactment of this
+				Act, there is no voter registration requirement for individuals in the State
+				with respect to elections for Federal office.</text>
+									</paragraph></subsection><subsection id="HCCAE94BB19C4476E9520112BAF5B3C97"><enum>(b)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of subsection (a) on and after January 1,
+				2011.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H8A136286CDAA469000A60017EFED23F1"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H1E77C928FF604824B35C804DC9139CF5" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 323. Election Day
+				registration.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="HDB74ADDF45434A7790F11B93465F2515"><enum>(b)</enum><header>Election day
+			 registration form</header>
+					<paragraph id="H4ABD6315FF5B472595B09BFCAA0164C"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of title II of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+						<quoted-block id="H72CC2FE40AB64E1800A89E128E3E18A7">
+							<section id="HA023168C89534D9A80D3EA13D8CFF5A7"><enum>299A.</enum><header>Election day
+				registration form</header><text display-inline="no-display-inline">The
+				Commission shall develop an election day registration form for elections for
+				Federal
+				office.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H4B959196C29E4BEBB81337CF7FD8D3D1"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H1C5A54F5793B4F02A9980942651C8645" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299A. Election Day registration
+				form.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection></section><section id="H86D506F13B324232BE19D02FD242C688"><enum>106.</enum><header>Integrity of
+			 voter registration list</header>
+				<subsection id="H0FD0913F4B944E1EAC417C4648EA8862"><enum>(a)</enum><header>In
+			 General</header><text display-inline="yes-display-inline">Subtitle C of title
+			 III of the Help America Vote Act of 2002, as added and amended by this Act, is
+			 amended by adding at the end the following new section:</text>
+					<quoted-block id="HF5C0E14002124377A9625937B2F2F7BB">
+						<section id="H8992E5C737794C19A1B6EFAAEA95F283"><enum>324.</enum><header>Removal from
+				voter registration list</header>
+							<subsection id="H746C524FAF864549AF4B7D74D1790325"><enum>(a)</enum><header>Public
+				notice</header><text>Not later than 45 days before any Federal election, each
+				State shall provide public notice of all names which have been removed from the
+				voter registration list of such State under section 303 since the later of the
+				most recent election for Federal office or the day of the most recent previous
+				public notice provided under this section.</text>
+							</subsection><subsection id="H45C1D5B26A364FFDB63269E2EC79AD83"><enum>(b)</enum><header>Notice to
+				individual voters</header>
+								<paragraph id="H47CB0F7FFEAB410EA7A0C939E828CE80"><enum>(1)</enum><header>In
+				general</header><text>No individual shall be removed from the voter
+				registration list under section 303 unless such individual is first provided
+				with a notice which meets the requirements of paragraph (2).</text>
+								</paragraph><paragraph id="HD8757D73B42C4B3995BE66D296C71A6"><enum>(2)</enum><header>Requirements of
+				notice</header><text>The notice required under paragraph (1) shall be—</text>
+									<subparagraph id="HCE997603D7894631A5C75588F8CBB851"><enum>(A)</enum><text>provided to each
+				voter in a uniform and nondiscriminatory manner;</text>
+									</subparagraph><subparagraph id="H30FC2D6DCC69485690638CC43D3F3FE0"><enum>(B)</enum><text>consistent with
+				the requirements of the National Voter Registration Act of 1993 (42 U.S.C.
+				1973gg et seq.); and</text>
+									</subparagraph><subparagraph id="H6E400A10BD7E4327A80063C653499013"><enum>(C)</enum><text>in the form and
+				manner prescribed by the Election Assistance Commission.</text>
+									</subparagraph></paragraph></subsection><subsection id="HC42DF0E29A71449D81E77BF053EE2393"><enum>(c)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+							</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection><subsection id="HD5E79582E5BE4260BAA4F561F400F3B3"><enum>(b)</enum><header>Clerical
+			 Amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+					<quoted-block display-inline="no-display-inline" id="H08C782757D08467D9205491594458740" style="OLC">
+						<toc regeneration="no-regeneration">
+							<toc-entry level="section">Sec. 324. Removal from voter registration
+				list.</toc-entry>
+						</toc>
+						<after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection></section><section id="H4DB47F34513A4BEF9331AAEBD26665D4"><enum>107.</enum><header>Early
+			 voting</header>
+				<subsection id="H35847659F05C4E0B86E91C82050034A6"><enum>(a)</enum><header>Requirements</header>
+					<paragraph id="H2C58DD53EEA347959EEE46BED2AD8EA8"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of the Help America Vote Act of
+			 2002, as added and amended by this Act, is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="H1A4F866E177C44678E33B99BF84B97B1">
+							<section id="HC7F8C5F7863F46E0B53D7421F65CDE00"><enum>325.</enum><header>Early
+				voting</header>
+								<subsection id="HC84CD25035654B8EAC86CEBEF3AE649E"><enum>(a)</enum><header>In
+				general</header><text>Each State shall allow individuals to vote in an election
+				for Federal office not less than 15 days prior to the day scheduled for such
+				election in the same manner as voting is allowed on such day.</text>
+								</subsection><subsection id="H78212D502F4B4A84B152BEE829A96400"><enum>(b)</enum><header>Minimum early
+				voting requirements</header><text>Each polling place which allows voting prior
+				to the day of a Federal election pursuant to subsection (a) shall—</text>
+									<paragraph id="H2D0338B34B44468F9494BAC9BBA646C2"><enum>(1)</enum><text>allow such voting
+				for no less than 4 hours on each day (other than Sunday); and</text>
+									</paragraph><paragraph id="HE324724DCB004EE1A821F331A6C91CE7"><enum>(2)</enum><text>have uniform hours
+				each day for which such voting occurs.</text>
+									</paragraph></subsection><subsection id="HA452AE03D2BF4BE7A807867DF3058593"><enum>(c)</enum><header>Application of
+				Election Day Registration to Early Voting</header><text>A State shall permit
+				individuals to register to vote at each polling place which allows voting prior
+				to the day of a Federal election pursuant to subsection (a) in the same manner
+				as the State is required to permit individuals to register to vote and vote on
+				the day of the election under section 323.</text>
+								</subsection><subsection id="H322C0703F6CC44389E75ED39391DEE00"><enum>(d)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HD891CCAB5F4747D99490BEC4668FCCD2"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H3E86EE598FE74F0C92A69E06C3AD3551" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 325. Early
+				voting.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="HAD9AB2A76677492EB37C8290A9FF04EF"><enum>(b)</enum><header>Standards for
+			 early voting</header>
+					<paragraph id="HB03F7017D47C4686B8C56317FA4C6E1"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of title II of the Help America Vote Act of
+			 2002, as added and amended by this Act, is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="H9C7BA4953A7149A4A800D310B5502053">
+							<section id="HF214C40E41354347AC41DB1FBCE5EC5"><enum>299B.</enum><header>Standards for
+				early voting</header>
+								<subsection id="HCAFF6BD5081E499D97E516B4B4954D5C"><enum>(a)</enum><header>In
+				general</header><text>The Commission shall issue standards for the
+				administration of voting prior to the day scheduled for a Federal election.
+				Such standards shall include the nondiscriminatory geographic placement of
+				polling places at which such voting occurs.</text>
+								</subsection><subsection id="HC2420BE6FD844CB6A32493536EC42D00"><enum>(b)</enum><header>Deviation</header><text>The
+				standards described in subsection (a) shall permit States, upon providing
+				adequate public notice, to deviate from any requirement in the case of
+				unforeseen circumstances such as a natural disaster, terrorist attack, or a
+				change in voter
+				turnout.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HC2DA8B6A1E9F440E82408E58F3BD69CC"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H2FAC629156DC42C1A600CE23104BDFD5" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299B. Standards for early
+				voting.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection></section><section id="H325F991B67D545F48091E9630432858D"><enum>108.</enum><header>Improvements to
+			 voting systems</header>
+				<subsection id="H485DE8475C33410F87DA86B95C4B5678"><enum>(a)</enum><header>In
+			 general</header><text>Section 301(a)(1)(B) of the Help America Vote Act of 2002
+			 (<external-xref legal-doc="usc" parsable-cite="usc/42/15481">42 U.S.C. 15481(a)(1)(B)</external-xref>) is amended by striking <quote>, a punch card voting
+			 system, or a central count voting system</quote>.</text>
+				</subsection><subsection id="HF0E5D7C4CF704794ACEBC3923721BB90"><enum>(b)</enum><header>Clarification of
+			 requirements for punch card systems</header><text>Section 301(a)(1)(A) of such
+			 Act (<external-xref legal-doc="usc" parsable-cite="usc/42/15481">42 U.S.C. 15481(a)(1)(A)</external-xref>) is amended by striking <quote>any lever</quote>
+			 and inserting <quote>any punch card voting system, lever</quote>.</text>
+				</subsection></section><section id="H7525CD21376A4ADD8B38203ED6A02EF5"><enum>109.</enum><header>Voter
+			 registration</header>
+				<subsection id="H15D8B23243B943B781D31CE5ABD9B300"><enum>(a)</enum><header>In
+			 general</header><text>Section 303(b)(4) of the Help America Vote Act of 2002
+			 (<external-xref legal-doc="usc" parsable-cite="usc/42/15483">42 U.S.C. 15483(b)(4)</external-xref>) is amended by adding at the end the following new
+			 subparagraphs:</text>
+					<quoted-block id="HCACFC21D85D34E14B928A18959DEF7AC">
+						<subparagraph id="H9EA3AA7DD08F4238800000AC93F76494"><enum>(C)</enum><header>Exception</header><text>On
+				and after January 1, 2011—</text>
+							<clause id="H8DD661BBE27F4AC88E22FC434D33F544"><enum>(i)</enum><text>in
+				lieu of the questions and statements required under subparagraph (A), such mail
+				voter registration form shall include an affidavit to be signed by the
+				registrant attesting both to citizenship and age; and</text>
+							</clause><clause id="HE1053405CB334B6F848CE810A75D9618"><enum>(ii)</enum><text>subparagraph (B)
+				shall not apply.</text>
+							</clause></subparagraph><subparagraph id="HC716A91703704820927E3954A93CFC2F"><enum>(D)</enum><header>Application to
+				forms developed by States</header><text>For purposes of section 6(a)(2) of the
+				National Voter Registration Act of 1993 (<external-xref legal-doc="usc" parsable-cite="usc/42/1973gg-4">42 U.S.C. 1973gg–4(a)(2)</external-xref>), any form
+				developed and used by a State for the registration of voters in elections for
+				Federal office shall not be considered to meet all of the criteria stated in
+				section 9(b) of such Act unless the form meets the requirements of subparagraph
+				(C).</text>
+						</subparagraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection><subsection id="HE4693D456BA142F0A507A1C91D700295"><enum>(b)</enum><header>Internet
+			 registration</header>
+					<paragraph id="HA72EA9FB5C0A48CC895315080511EA1D"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+						<quoted-block id="H65C33E977F344BE2A1BAF5681572043B">
+							<section id="HC69E491B9B5649B089A6CA3F8044B23"><enum>326.</enum><header>Internet
+				registration</header>
+								<subsection id="HE756681FA2BA4A5E8D10F8003F502000"><enum>(a)</enum><header>Internet
+				registration</header><text>Each State shall establish a program under which
+				individuals may access and submit voter registration forms electronically
+				through the Internet.</text>
+								</subsection><subsection id="HA6B7BDD9C9E146A0AEE83D85C7DA676C"><enum>(b)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HE50DABE2B8D844798211404C6DE48519"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="HB4E137E3C5DD4F0BB7ABDB6BAEB7D395" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 326. Internet
+				registration.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="HC7713718135C437480422E6B63CAC014"><enum>(c)</enum><header>Standards for
+			 Internet registration</header>
+					<paragraph id="HB58BCB440105495DA1DDF25563899500"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of such Act, as added and amended by this Act,
+			 is amended by adding at the end the following new section:</text>
+						<quoted-block id="H46F19618799943859E004B73CA64C1E8">
+							<section id="HCAC9541361F242799522782C187B81DF"><enum>299C.</enum><header>Standards for
+				Internet registration programs</header><text display-inline="no-display-inline">The Commission shall establish standards
+				regarding the design and operation of programs which allow electronic voter
+				registration through the
+				Internet.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H8EF76A166474413F9E569951FAB4D3"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="HB8FB51277CDD49EF8F094180AF206542" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299C. Standards for Internet
+				registration
+				programs.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection></section><section id="H4B318E18B95846599DA207581086924C"><enum>110.</enum><header>Establishing
+			 voter identification</header>
+				<subsection id="HF1B72223903F40C8BE25616B4655ABAC"><enum>(a)</enum><header>In
+			 general</header>
+					<paragraph id="H326EDEBF0D39446FAE8984009E2325A3"><enum>(1)</enum><header>In person
+			 voting</header><text>Section 303(b)(2)(A)(i) of the Help America Vote Act of
+			 2002 (<external-xref legal-doc="usc" parsable-cite="usc/42/15483">42 U.S.C. 15483(b)(2)(A)(i)</external-xref>) is amended—</text>
+						<subparagraph id="H09FEF5A212C24E58853C4404735645E6"><enum>(A)</enum><text>by striking
+			 <quote>or</quote> at the end of subclause (I); and</text>
+						</subparagraph><subparagraph id="HA2525C97F19647D4AB2880501CF8C9E8"><enum>(B)</enum><text>by adding at the
+			 end the following new subclause:</text>
+							<quoted-block id="H6D566B068596429ABB9363DF2294945E">
+								<subclause id="HEE19B56E6869496F8F1073F460E64C66"><enum>(III)</enum><text>executes a
+				written affidavit attesting to such individual’s identity;
+				or</text>
+								</subclause><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph><paragraph id="HCFB704CBFE2045D08EDBE0EDE59B75FE"><enum>(2)</enum><header>Voting by
+			 mail</header><text>Section 303(b)(2)(A)(ii) of such Act (42 U.S.C.
+			 15483(b)(2)(A)(ii)) is amended—</text>
+						<subparagraph id="H4E6787D9683443B5BD28AF2635E9AE1D"><enum>(A)</enum><text>by striking
+			 <quote>or</quote> at the end of subclause (I);</text>
+						</subparagraph><subparagraph id="HA6C8F2310D1747C5853046C8FBCF2347"><enum>(B)</enum><text>by striking the
+			 period at the end of subclause (II) and inserting <quote>; or</quote>;
+			 and</text>
+						</subparagraph><subparagraph id="H7796C1AF6D8E4C37ADA43FB3C14D9DAD"><enum>(C)</enum><text>and by adding at
+			 the end the following new subclause:</text>
+							<quoted-block id="HFDB2BA1D83DA48F68058E2C3F8F0DD5C">
+								<subclause id="H2FC193D51DDB42A68950305918688893"><enum>(III)</enum><text>a written
+				affidavit, executed by such individual, attesting to such individual’s
+				identity.</text>
+								</subclause><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph></subsection><subsection id="H5A84C5A269CB44E3A1D86FFDE2BD8B42"><enum>(b)</enum><header>Standards for
+			 verifying voter information</header>
+					<paragraph id="HDAD447D43B9F40ADA41BA1FFF07DE5AB"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of such Act, as added and amended by this Act,
+			 is amended by adding at the end the following new section:</text>
+						<quoted-block id="HB7FC726B6A3D4E5594B58B3124CAA6F9">
+							<section id="H1E1C2567541B4CFDB5A0659836DA3C80"><enum>299D.</enum><header>Voter
+				identification</header><text display-inline="no-display-inline">The Commission
+				shall develop standards for verifying the identification information required
+				under section 303(a)(5) in connection with the registration of an individual to
+				vote in a Federal
+				election.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HDE79D3A06E3B4D1BBDE2BB41EF06F67"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added by this Act, is amended by adding at the end the following
+			 new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H1B260C4F57294DC0AA624523A7FD200" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299D. Voter
+				identification.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection></section><section id="HEC23086057DC4DFF991900152D1BA57D"><enum>111.</enum><header>Impartial
+			 administration of elections</header>
+				<subsection id="HE0C5782BAD55407F9CE88608CA9DBF6D"><enum>(a)</enum><header>Election
+			 Administration Requirements</header>
+					<paragraph id="HFA6E2C1106884505001331D0CCB8203D"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of the Help America Vote Act of
+			 2002, as added and amended by this Act, is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="H6E62C72E1B44474284AA0F4EECAF3B1">
+							<section id="HD0FAEE7F061E4D81A92ECDDB84312293"><enum>327.</enum><header>Election
+				administration requirements</header>
+								<subsection id="H689BF709244F42E0B25DAD69A8EACEE8"><enum>(a)</enum><header>Notice of
+				changes in State election laws</header><text>Not later than 15 days prior to
+				any Federal election, each State shall issue a public notice describing all
+				changes in State law affecting the administration of Federal elections since
+				the most recent prior election.</text>
+								</subsection><subsection id="H78A32CCAA6B94B16871949EA6BB140FF"><enum>(b)</enum><header>Observers</header>
+									<paragraph id="HBC1B626ED2DE4A77AB8BB1EFD34A4EC"><enum>(1)</enum><header>In
+				general</header><text>Each State shall allow uniform and nondiscriminatory
+				access to any polling place for purposes of observing a Federal election
+				to—</text>
+										<subparagraph id="HA7EBCDC6183246949340052B4FAA29C4"><enum>(A)</enum><text>voting rights and
+				civil rights organizations; and</text>
+										</subparagraph><subparagraph id="HD38DFC558D9646EEBE60D844CDE572F"><enum>(B)</enum><text>nonpartisan
+				domestic observers and international observers.</text>
+										</subparagraph></paragraph><paragraph id="H8C77535DCFF94CA8870043F0ED730217"><enum>(2)</enum><header>Notice of denial
+				of observation request</header><text>Each State shall issue a public notice
+				with respect to any denial of a request by any observer described in paragraph
+				(1) for access to any polling place for purposes of observing a Federal
+				election. Such notice shall be issued not later than 24 hours after such
+				denial.</text>
+									</paragraph><paragraph id="HCE207F69737849C982D5EB5D7403F400"><enum>(3)</enum><header>No interference
+				with election permitted</header><text>Nothing in this subsection may be
+				construed to permit any individual observing a Federal election pursuant to
+				this subsection to engage in campaign activity at a polling place or interfere
+				in any way with the conduct of the election.</text>
+									</paragraph></subsection><subsection id="HC423F635A2FA433482882830F49A0C1"><enum>(c)</enum><header>Effective
+				date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+								</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="HBA3AAE609C4144C3802F1792F200C0DD"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H4EA090A525274038B79036AC6F588768" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 327. Election administration
+				requirements.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H7BE6FBA6E1A642FC9749AD4978EF26C1"><enum>(b)</enum><header>Study of
+			 Administration of Elections by Nonpartisan Boards</header>
+					<paragraph id="HAAD8292E28154BE695F2D6A078383DC4"><enum>(1)</enum><header>Study</header><text>The
+			 Election Assistance Commission shall conduct a study analyzing the feasibility
+			 and desirability of requiring States to carry out the administration of
+			 elections for Federal office through nonpartisan election boards.</text>
+					</paragraph><paragraph id="HAECFF7EA97854CE8B72FFB516DB7186"><enum>(2)</enum><header>Report</header><text>Not
+			 later than January 1, 2011, the Commission shall submit a report to Congress
+			 and the relevant committees of Congress on the study conducted under paragraph
+			 (1).</text>
+					</paragraph></subsection></section><section id="H67DA4FD41C6C472B9D45409214291513"><enum>112.</enum><header>Strengthening
+			 the Election Assistance Commission</header>
+				<subsection id="HEADD32A72D294C148F95A5893B1D06EB"><enum>(a)</enum><header>Budget
+			 requests</header>
+					<paragraph id="H74565FDC56484AE187C2D288D700B5FF"><enum>(1)</enum><header>In
+			 general</header><text>Part 1 of subtitle A of title II of the Help America Vote
+			 Act of 2002 (<external-xref legal-doc="usc" parsable-cite="usc/42/15321">42 U.S.C. 15321 et seq.</external-xref>) is amended by inserting after section 209
+			 the following new section:</text>
+						<quoted-block id="H7E4E76E5C9CF420890A119B3C119F940">
+							<section id="HEDF445D8F2BE41319D7400715462D370"><enum>209A.</enum><header>Submission of
+				budget requests</header><text display-inline="no-display-inline">Whenever the
+				Commission submits any budget estimate or request to the President or the
+				Office of Management and Budget, it shall concurrently transmit a copy of such
+				estimate or request to the Congress and to all relevant committees of the House
+				and
+				Senate.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H5CDD4056EAE44746821DD0683B68A315"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for part 1 of subtitle A of title
+			 II of such Act is amended by inserting after the item relating to section 209
+			 the following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="H4A455823E1D44A13B8D976AD2C8501D8" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 209A. Submission of budget
+				requests.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H3D7D61490D144AB98BFF9434E2DA097C"><enum>(b)</enum><header>Exemption from
+			 paperwork reduction Act</header><text><external-xref legal-doc="usc" parsable-cite="usc/44/3502">Section 3502(1)</external-xref> of title 44, United
+			 States Code, is amended—</text>
+					<paragraph id="H43C3A4E2DA7D4DFC8F23CA01FBC4E500"><enum>(1)</enum><text>by redesignating
+			 subparagraphs (B), (C), and (D) as subparagraphs (C), (D), and (E); and</text>
+					</paragraph><paragraph id="H14ACBC25260849D794001E0696186595"><enum>(2)</enum><text>by inserting after
+			 subparagraph (A) the following new subparagraph:</text>
+						<quoted-block id="H6BE4EC0C12A24226950005A3B1EC4307">
+							<subparagraph id="HDB8B0CA6C375412E975DA400A57BEA3"><enum>(B)</enum><text>the Election
+				Assistance
+				Commission;</text>
+							</subparagraph><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H70F555E7140B4E2F8C42AF93BAF1382C"><enum>(c)</enum><header>Rulemaking</header><text>Section
+			 209 of the Help America Vote Act of 2002 (<external-xref legal-doc="usc" parsable-cite="usc/42/15239">42 U.S.C. 15239</external-xref>) is amended—</text>
+					<paragraph id="H3D5BDED2BBF14F879EE25F50F6EF02A1"><enum>(1)</enum><text>by striking
+			 <quote>The Commission</quote> and inserting the following:</text>
+						<quoted-block id="H455E2E0C9ED94885BDEDDA685AA7947">
+							<subsection id="HC751180C115C4FE28C5B073344878506"><enum>(a)</enum><header>In
+				general</header><text>Except as provided in subsection (b), the
+				Commission</text>
+							</subsection><after-quoted-block>;
+				and</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H3D08983799F04DCA82AFEF3F77C5EE46"><enum>(2)</enum><text>by adding at the
+			 end the following new subsection:</text>
+						<quoted-block id="HF10FA472CB3D4A448C68F62900705EA3">
+							<subsection id="H6E6A8C32F3694E8B81B035BE94CD00B8"><enum>(b)</enum><header>Exception</header><text>On
+				and after January 1, 2011, subsection (a) shall not apply to any authority
+				granted under subtitle E of this title or subtitle C of title
+				III.</text>
+							</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H0F13C0CDA0F341A8807346333FCBDD5"><enum>(d)</enum><header>NIST
+			 authority</header>
+					<paragraph id="HC0620C8A013A4FBA93ED1B346D5FBE3"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle E of title II of the Help America Vote Act of
+			 2002, as added and amended by this Act, is amended by adding at the end the
+			 following new section:</text>
+						<quoted-block id="HC5D16388A9EA483B89A4EAF45E9CA8E8">
+							<section id="H1FA5E1028DD644C099C3D17EE7FEC3F6"><enum>299E.</enum><header>Technical
+				support</header><text display-inline="no-display-inline">At the request of the
+				Commission, the Director of the National Institute of Standards and Technology
+				shall provide the Commission with technical support necessary for the
+				Commission to carry out its duties under this
+				title.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H0F13FB1622EA4848ADDE00374B5E6DEE"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added by this Act, is amended by adding at the end the following
+			 new item:</text>
+						<quoted-block display-inline="no-display-inline" id="HFDE52A8398E54368B652B6D79123C95D" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 299E. Technical
+				support.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection id="H4EBD9389BCF345098838F43995E7F60"><enum>(e)</enum><header>Authorization of
+			 appropriations</header><text>Section 210 of the Help America Vote Act of 2002
+			 (<external-xref legal-doc="usc" parsable-cite="usc/42/15330">42 U.S.C. 15330</external-xref>) is amended by striking <quote>for each of the fiscal years
+			 2003 through 2005</quote> and all that follows and inserting the following:</text>
+					<quoted-block display-inline="yes-display-inline" id="HFEB8DA65ADE2469A86BF42F53B4E00C" style="OLC">
+						<text>for the Commission to carry out this title the
+			 following:</text><paragraph id="HE16DFD43440B4E96B1C2A3A74CCFA41"><enum>(1)</enum><text display-inline="yes-display-inline">For each of fiscal years 2003 through 2009,
+				$10,000,000.</text>
+						</paragraph><paragraph id="H461181016E8E4C148339768E978F20A2"><enum>(2)</enum><text>For fiscal year
+				2010, $23,000,000, of which $3,000,000 is solely to carry out section
+				299E.</text>
+						</paragraph><paragraph id="H4189C63417134CD498905875B763F0DE"><enum>(3)</enum><text>For fiscal year
+				2011 and each succeeding fiscal year, such sums as may be
+				necessary.</text>
+						</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection></section><section display-inline="no-display-inline" id="HAE1359BD012D429080E6BA6ACCBA2B1" section-type="subsequent-section"><enum>113.</enum><header>Additional
+			 Protections to Ensure Fair Administration of Federal Elections</header>
+				<subsection id="H572B9398D6814276A446CBE8B25CBCD"><enum>(a)</enum><header>Requiring Use of
+			 Publicly Available Open Source Software in Voting Machines</header>
+					<paragraph id="H5566560B979E40320047CE7B47235273"><enum>(1)</enum><header>Requiring Use of
+			 Open Source Software</header>
+						<subparagraph id="HCE08FD6FD9A24B6BA585AABD52098670"><enum>(A)</enum><header>In
+			 general</header><text>Subtitle C of title III of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+							<quoted-block display-inline="no-display-inline" id="H656BD39511AE4BD1BC54B032CD085532" style="OLC">
+								<section id="H70B352EDFCDC41C39B8BC8EE205100B3"><enum>328.</enum><header>Requiring Use
+				of Publicly Available Open Source Software in Voting Machines</header>
+									<subsection id="HB632720888D14CFDB4ECCC587FE97629"><enum>(a)</enum><header>In
+				General</header><text>Each State shall ensure that each voting machine used by
+				the State for elections for Federal office uses open source software which may
+				be accessible for inspection by the public, in accordance with standards
+				established by the Commission under section 299G.</text>
+									</subsection><subsection id="HC41DC7681981466EB231A800646CB270"><enum>(b)</enum><header>Effective
+				Date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+									</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph><subparagraph id="H1FE5E204CDFD40E38E9E11D0B59CE0E4"><enum>(B)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+							<quoted-block display-inline="no-display-inline" id="HC540E3872A5B412F8DA6F14845193765" style="OLC">
+								<toc regeneration="no-regeneration">
+									<toc-entry level="section">Sec. 328. Requiring use of publicly
+				available open source software in voting
+				machines.</toc-entry>
+								</toc>
+								<after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph><paragraph id="HB156FC30712F49E991A66FD55564B73E"><enum>(2)</enum><header>Establishment of
+			 Standards</header>
+						<subparagraph id="H26FCA391CDF14BD9BBFFD846E5D569E"><enum>(A)</enum><header>In
+			 general</header><text>Subtitle E of title II of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+							<quoted-block display-inline="no-display-inline" id="HCD4B95C683574FBA912963D3CC958F0" style="OLC">
+								<section id="H651640C4019844E397C845BD1DA270BF"><enum>299F.</enum><header>Standards for
+				Publicly Available Open Source Software in Voting Machines</header><text display-inline="no-display-inline">The Commission shall establish standards for
+				the software used in voting machines for elections for Federal offices,
+				including standards to ensure that all such software is open source software
+				which may be accessible for inspection by the
+				public.</text>
+								</section><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph><subparagraph id="HCCEDD595065A412EB70026C4DFFFE038"><enum>(B)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+							<quoted-block display-inline="no-display-inline" id="HD8096CD242CA4E77BA14D0FDF7C2F3DC" style="OLC">
+								<toc regeneration="no-regeneration">
+									<toc-entry level="section">Sec. 299F. Standards for publicly
+				available open source software in voting
+				machines.</toc-entry>
+								</toc>
+								<after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph></subsection><subsection display-inline="no-display-inline" id="H1412AC5A80324FE4B11DCF63F7D6A050"><enum>(b)</enum><header>Standards for
+			 Conducting Recounts</header>
+					<paragraph id="H4D803837E069445597A9FF8EBFEDF3AE"><enum>(1)</enum><header>In
+			 general</header><text>Subtitle C of title III of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+						<quoted-block display-inline="no-display-inline" id="HFB1B6BCB146444E6A657AFCB3081A377" style="OLC">
+							<section id="H8F9BE190E47448CC811BA73912DF8700"><enum>329.</enum><header>Standards for
+				Conducting Recounts</header><text display-inline="no-display-inline">In
+				conducting any recount with respect to any election for Federal office in the
+				State, the State shall ensure that a vote in the election will be counted when
+				the intent of the voter can reasonably be determined from the
+				ballot.</text>
+							</section><after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph><paragraph id="H1C77C6BD3C6F435885FAC3BE21823D98"><enum>(2)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+						<quoted-block display-inline="no-display-inline" id="HD458C77F45AE4CE296FD8870D5F0A2BC" style="OLC">
+							<toc regeneration="no-regeneration">
+								<toc-entry level="section">Sec. 329. Standards for conducting
+				recounts.</toc-entry>
+							</toc>
+							<after-quoted-block>.</after-quoted-block></quoted-block>
+					</paragraph></subsection><subsection display-inline="no-display-inline" id="HC58F1B9A93B2495193CC48191120D8FC"><enum>(c)</enum><header>Prohibiting
+			 Conflicts of Interest of Entities Involved in Manufacture, Distribution, or
+			 Other Activities Relating to Voting Machines</header>
+					<paragraph id="HEA6F94F10B614A0ABDA9DA34022B98D6"><enum>(1)</enum><header>Prohibiting
+			 agreements by states with entities failing to meet anti-conflict of interest
+			 standards</header>
+						<subparagraph id="H621EC80BD73F4BB7A7DEC37EE3007F46"><enum>(A)</enum><header>In
+			 general</header><text>Subtitle C of title III of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+							<quoted-block display-inline="no-display-inline" id="H9CFD816700284FACAB8B2D6DA7F6FEED" style="OLC">
+								<section id="HCE530D999A444AB287EB441BF4751704"><enum>329A.</enum><header>Prohibiting
+				Agreements With Entities Failing to Meet Anti-Conflict of Interest Standards
+				for Entities Involved With Voting Machines</header>
+									<subsection id="H39222DF9D9304DB69FFB5BE583195586"><enum>(a)</enum><header>In
+				General</header><text>In carrying out an election for Federal office, a State
+				may not enter into any agreement with an entity regarding the manufacture,
+				distribution, installation, servicing, or other activity with respect to a
+				voting machine to be used for the election if the entity is not in compliance
+				with the standards established by the Commission under section 299G for
+				prohibiting conflicts of interest of such entities.</text>
+									</subsection><subsection id="H13AE21D645CC486C95A70068E8F53AE"><enum>(b)</enum><header>Effective
+				Date</header><text>Each State shall be required to comply with the requirements
+				of this section on and after January 1,
+				2011.</text>
+									</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph><subparagraph id="H3AB22B7806CC4D9995D8F1C869DE2D21"><enum>(B)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle C of title III of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+							<quoted-block display-inline="no-display-inline" id="HACAC774931084C4D82D267EE2518E6BE" style="OLC">
+								<toc regeneration="no-regeneration">
+									<toc-entry level="section">Sec. 329A. Prohibiting agreement with
+				entities failing to meet anti-conflict of interest standards for entities
+				involved with voting
+				machines.</toc-entry>
+								</toc>
+								<after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph><paragraph id="H630FCCDA2F484D73949E03DBC8BD1765"><enum>(2)</enum><header>Establishment of
+			 standards</header>
+						<subparagraph id="HA569E87A31F04080ACBBCA6764D1076B"><enum>(A)</enum><header>In
+			 general</header><text>Subtitle E of title II of such Act, as added and amended
+			 by this Act, is amended by adding at the end the following new section:</text>
+							<quoted-block display-inline="no-display-inline" id="HFF286C1ED790465981D9EF067BC5F08E" style="OLC">
+								<section id="H67944801B86A468F9395994C24B81EAE"><enum>299G.</enum><header>Standards for
+				Prohibiting Conflicts of Interest of Entities Involved in Manufacture,
+				Distribution, or Other Activities Relating to Voting Machines</header><text display-inline="no-display-inline">The Commission shall establish standards to
+				prohibit conflicts of interest of entities engaged in the manufacture,
+				distribution, installation, servicing, or other activities with respect to
+				voting machines, including standards to prohibit any such entity from directly
+				or indirectly providing any funds or property (including in-kind funds and
+				property) to any candidate for public office, any political party, any
+				political committee under the Federal Election Campaign Act of 1971, any
+				organization described in <external-xref legal-doc="usc" parsable-cite="usc/26/527">section 527</external-xref> of the Internal Revenue Code of 1986, or
+				any other entity organized for any partisan political
+				purpose.</text>
+								</section><after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph><subparagraph id="H370EB6A1626F422E9087F9896435F1B2"><enum>(B)</enum><header>Clerical
+			 amendment</header><text>The table of contents for subtitle E of title II of
+			 such Act, as added and amended by this Act, is amended by adding at the end the
+			 following new item:</text>
+							<quoted-block display-inline="no-display-inline" id="H6D558DCF36EC471AABE4CBA1F58D300" style="OLC">
+								<toc regeneration="no-regeneration">
+									<toc-entry level="section">Sec. 299G. Standards for prohibiting
+				conflicts of interest of entities involved in manufacture, distribution, or
+				other activities relating to voting
+				machines.</toc-entry>
+								</toc>
+								<after-quoted-block>.</after-quoted-block></quoted-block>
+						</subparagraph></paragraph></subsection></section><section id="HBEBBC11FC72D428CAE07CD9189B60835"><enum>114.</enum><header>Authorization
+			 of appropriations</header><text display-inline="no-display-inline">Section
+			 257(a) of the Help America Vote Act of 2002 (<external-xref legal-doc="usc" parsable-cite="usc/42/15408">42 U.S.C. 15408(a)</external-xref>) is amended by
+			 adding at the end the following new paragraphs:</text>
+				<quoted-block id="HA5D52C9DBB574F38B6B9E5AFB199AFD6">
+					<paragraph id="HA9C2BB4D2FAC4C0F9DA6BEE2B7612008"><enum>(4)</enum><text>For fiscal year
+				2010, $2,000,000,000.</text>
+					</paragraph><paragraph id="H4DE707CB7AAE4BC000AE9E008E5FEF4D"><enum>(5)</enum><text>For each fiscal
+				year after 2010, such sums as are
+				necessary.</text>
+					</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section><section id="H43F76D5784FC4A1900E6BA38AB6FDCE"><enum>115.</enum><header>Effective
+			 date</header><text display-inline="no-display-inline">This title and the
+			 amendments made by this title shall take effect on January 1, 2010.</text>
+			</section></title><title id="HF2093CF78DC345B582FBB6B3FB4DCC9E"><enum>II</enum><header>Prohibiting
+			 Deceptive Practices</header>
+			<section commented="no" id="H32752C3222E24271B3E98DE996DDCDD8"><enum>201.</enum><header>Prohibition on
+			 deceptive practices in Federal elections</header>
+				<subsection commented="no" id="H5DBBE749817B4127A83846E07F641D19"><enum>(a)</enum><header>In
+			 general</header><text><external-xref legal-doc="usc-chapter" parsable-cite="usc-chapter/18/29">Chapter 29</external-xref> of title 18, United States Code, is amended by
+			 adding at the end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H332F1E842BF547D1A511C91C10A8B12B" style="USC">
+						<section id="H3D7EF5E54D1F45DFA045192114A59E4"><enum>618.</enum><header>Deceptive
+				practices in Federal elections</header>
+							<subsection id="HD0C0E8B0C485472E923594F5C60052C6"><enum>(a)</enum><text display-inline="yes-display-inline">Whoever, within 60 days before a Federal
+				election, knowingly communicates election-related information about that
+				election, knowing that information to be false, with the intent to prevent
+				another person from exercising the right to vote in that election, or attempts
+				to do so, shall be fined under this title or imprisoned not more than 5 years,
+				or both.</text>
+							</subsection><subsection id="HEE43A441CAB24379BA05F8C66B4224AF"><enum>(b)</enum><text display-inline="yes-display-inline">As used in this section—</text>
+								<paragraph id="H244DE5E67A044CA39F8113ECEECD00BB"><enum>(1)</enum><text display-inline="yes-display-inline">the term <term>Federal election</term>
+				means any general, primary, run-off, or special election for the office of
+				President, Vice President, presidential elector, Member of the Senate, Member
+				of the House of Representatives, or Delegate or Commissioner from a territory
+				or possession; and</text>
+								</paragraph><paragraph id="H1B454D27C0C54967BDE855E508E89938"><enum>(2)</enum><text>the term
+				<term>election related information</term> means information regarding—</text>
+									<subparagraph commented="no" id="HBE9037993BC64B8E8E48722208354D91"><enum>(A)</enum><text>the time, place,
+				or manner of conducting the election;</text>
+									</subparagraph><subparagraph id="H19875C7BF6AE4D5C00C2081934CE9817"><enum>(B)</enum><text>the qualifications
+				for or restrictions on voter eligibility for the election, including—</text>
+										<clause id="HC1EAD2D1695A428F897FE3B322873090"><enum>(i)</enum><text display-inline="yes-display-inline">any criminal penalties associated with
+				voting in the election; or</text>
+										</clause><clause id="H893B66032CF04A15BB836CCFC0DD44B6"><enum>(ii)</enum><text>information
+				regarding a voter's registration status or eligibility;</text>
+										</clause></subparagraph><subparagraph id="HA43140BE99264509A0B3CE37D79EAF82"><enum>(C)</enum><text>with respect to a
+				closed primary election, the political party affiliation of any candidate for
+				office, if the communication of the information also contains false information
+				described in subparagraph (A) or (B); or</text>
+									</subparagraph><subparagraph commented="no" id="H4F9FC5CE49404C2D91EFE3E2FAC821C"><enum>(D)</enum><text>the explicit
+				endorsement by any person or organization of a candidate running for any office
+				voted on in the
+				election.</text>
+									</subparagraph></paragraph></subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection><subsection id="HA47C9B90638A41B1B8EBE7800A8A450"><enum>(b)</enum><header>Clerical
+			 amendment</header><text>The table of sections for <external-xref legal-doc="usc-chapter" parsable-cite="usc-chapter/18/29">chapter 29</external-xref> of title 18,
+			 United States Code, is amended by adding at the end the following new
+			 item:</text>
+					<quoted-block display-inline="no-display-inline" id="H71CEC1816F9E4E7098FD8C59FFC8801F" style="OLC">
+						<toc regeneration="no-regeneration">
+							<toc-entry level="section">618. Deceptive practices in Federal
+				elections.</toc-entry>
+						</toc>
+						<after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection></section><section id="H29C994194A9F42A0A1C9FBE83D1A754"><enum>202.</enum><header>Modification of
+			 penalty for voter intimidation</header><text display-inline="no-display-inline"><external-xref legal-doc="usc" parsable-cite="usc/18/594">Section 594</external-xref> of title 18, United States Code,
+			 is amended by striking <quote>one year</quote> and inserting <quote>5
+			 years</quote>.</text>
+			</section><section id="H2D652603520B4A229510FB8198128481"><enum>203.</enum><header>Sentencing
+			 guidelines</header>
+				<subsection id="H46DB569D251F4592A484139FC002C39E"><enum>(a)</enum><header>Review and
+			 Amendment</header><text display-inline="yes-display-inline">Not later than 90
+			 days after the date of enactment of this Act, the United States Sentencing
+			 Commission, pursuant to its authority under <external-xref legal-doc="usc" parsable-cite="usc/28/994">section 994</external-xref> of title 28, United
+			 States Code, and in accordance with this section, shall review and, if
+			 appropriate, amend the Federal sentencing guidelines and policy statements
+			 applicable to persons convicted of any offense under sections of title 18,
+			 United States Code, that are added or modified by this title.</text>
+				</subsection><subsection id="H557B28132048458FBDD65D85C9B53A0"><enum>(b)</enum><header>Authorization</header><text>The
+			 United States Sentencing Commission may, for the purposes of the amendments
+			 made pursuant to this section, amend the Federal sentencing guidelines in
+			 accordance with the procedures set forth in section 21(a) of the Sentencing Act
+			 of 1987 (<external-xref legal-doc="usc" parsable-cite="usc/28/994">28 U.S.C. 994</external-xref> note) as though the authority under that section had not
+			 expired.</text>
+				</subsection></section><section commented="no" display-inline="no-display-inline" id="H80412079AA6A41D08FE3C10800CFFB34"><enum>204.</enum><header>Reporting
+			 violations and remedial action</header>
+				<subsection commented="no" display-inline="no-display-inline" id="H337D8C1F99AA4DC6910090D738278656"><enum>(a)</enum><header>Reporting</header><text>Any
+			 person may report to the Attorney General any violation or possible violation
+			 of section <external-xref legal-doc="usc" parsable-cite="usc/18/594">594</external-xref> or <external-xref legal-doc="usc" parsable-cite="usc/18/618">618</external-xref> of title 18, United States Code.</text>
+				</subsection><subsection commented="no" id="HD6D9A606BF2640A0A5047204DB00CB58"><enum>(b)</enum><header>Corrective
+			 action</header>
+					<paragraph commented="no" id="HC24BD8B5586F4F05921CFE651438DBD6"><enum>(1)</enum><header>In
+			 general</header><text>Immediately after receiving a report under subsection
+			 (a), the Attorney General shall consider and review such report and, if the
+			 Attorney General determines that there is a reasonable basis to find that a
+			 violation has occurred, the Attorney General shall—</text>
+						<subparagraph commented="no" id="HFC816B89E26B4F8682F123C6DA47DD7"><enum>(A)</enum><text>undertake all
+			 effective measures necessary to provide correct information to voters affected
+			 by the false information;</text>
+						</subparagraph><subparagraph id="HC5905E9813E7441CBB95D74135BDD97"><enum>(B)</enum><text display-inline="yes-display-inline">refer any matter under the jurisdiction of
+			 the Civil Rights Division of the Department of Justice to such division for
+			 prosecution; and</text>
+						</subparagraph><subparagraph commented="no" id="HEB8A12542B4B451900ED5BD1DC825B08"><enum>(C)</enum><text>refer the matter
+			 to the appropriate Federal and State authorities for criminal prosecution or
+			 civil action after the election.</text>
+						</subparagraph></paragraph><paragraph commented="no" id="H9857DD8AA0CA495FB9D338FC89FD96EA"><enum>(2)</enum><header>Regulations</header>
+						<subparagraph commented="no" id="H494454947D3E4A4FB9E3B4EEF03736E5"><enum>(A)</enum><header>In
+			 general</header><text>The Attorney General shall promulgate regulations
+			 regarding the methods and means of corrective actions to be taken under
+			 paragraph (1). Such regulations shall be developed in consultation with the
+			 Election Assistance Commission, civil rights organizations, voting rights
+			 groups, State and local election officials, voter protection groups, and other
+			 interested community organizations.</text>
+						</subparagraph><subparagraph commented="no" id="HC2323E8A8C834FE2A965F4847E349888"><enum>(B)</enum><header>Study</header>
+							<clause commented="no" id="HAEEB9350DA5B472FB69DF0DE61D47BA3"><enum>(i)</enum><header>In
+			 general</header><text>The Attorney General, in consultation with the Federal
+			 Communications Commission and the Election Assistance Commission, shall conduct
+			 a study on the feasibility of providing the corrective information under
+			 paragraph (1) through public service announcements, the emergency alert system,
+			 or other forms of public broadcast.</text>
+							</clause><clause commented="no" id="HFE48A403E6AA44028E6D9356C3C7BF5C"><enum>(ii)</enum><header>Report</header><text>Not
+			 later than 180 days after the date of the enactment of this Act, the Attorney
+			 General shall submit to Congress a report detailing the results of the study
+			 conducted under clause (i).</text>
+							</clause></subparagraph></paragraph><paragraph id="HCB06993BFF4E4AAEA47230FF73AC1165"><enum>(3)</enum><header>Publicizing
+			 remedies</header><text display-inline="yes-display-inline">The Attorney General
+			 shall make public through the Internet, radio, television, and newspaper
+			 advertisements information on the responsibilities, contact information, and
+			 complaint procedures applicable under this section.</text>
+					</paragraph></subsection><subsection id="H2389FD6CA19E48E5880015C4E11398ED"><enum>(c)</enum><header>Reports to
+			 Congress</header>
+					<paragraph id="HAD3F9519065A4C389B07302B3FA6DB5B"><enum>(1)</enum><header>In
+			 general</header><text>Not later than 90 days after any primary, general, or
+			 run-off election for Federal office, the Attorney General shall submit to
+			 Congress a report compiling and detailing any allegations of false information
+			 submitted pursuant to subsection (a) and relating to such election.</text>
+					</paragraph><paragraph id="H0A394EB097364E1E9EA7E2F368777D02"><enum>(2)</enum><header>Contents</header><text>Each
+			 report submitted under paragraph (1) shall include—</text>
+						<subparagraph id="H7CAD2D3BE0BB41068534504C7D2F3F00"><enum>(A)</enum><text>detailed
+			 information on specific allegations of deceptive tactics;</text>
+						</subparagraph><subparagraph id="H1C1CC3DB90C04238A649F1433E64EAA7"><enum>(B)</enum><text>statistical
+			 compilations of how many allegations were made and of what type;</text>
+						</subparagraph><subparagraph commented="no" display-inline="no-display-inline" id="H8D3D72FC303448138D3233DD9E198E02"><enum>(C)</enum><text>the geographic
+			 locations of and the populations affected by the alleged deceptive
+			 information;</text>
+						</subparagraph><subparagraph id="H32E17A121E0D4731850784A9EF9291B"><enum>(D)</enum><text>the status of the
+			 investigations of such allegations;</text>
+						</subparagraph><subparagraph id="H1709CDAC1B214AC288936E21E52CDB2"><enum>(E)</enum><text>any corrective
+			 actions taken in response to such allegations;</text>
+						</subparagraph><subparagraph id="H5C89B9F984E44F50B83700AA41815E35"><enum>(F)</enum><text>the rationale used
+			 for any corrective actions or for any refusal to pursue an allegation;</text>
+						</subparagraph><subparagraph id="H07D3EB21387E4FA9A39F3C23B9BD14C1"><enum>(G)</enum><text>the effectiveness
+			 of any such corrective actions;</text>
+						</subparagraph><subparagraph id="H6F31F056AF3E4F67A8CFA92D6F30F0A1"><enum>(H)</enum><text>whether a Voting
+			 Integrity Task Force was established with respect to such election, and, if so,
+			 how such task force was staffed and funded;</text>
+						</subparagraph><subparagraph id="HE2D06706FCBA4FE8B781FBAEC99F6E7"><enum>(I)</enum><text>any referrals of
+			 information to other Federal, State, or local agencies;</text>
+						</subparagraph><subparagraph id="HE1B0B92703604850996D8323FBEC8FC4"><enum>(J)</enum><text>any suit
+			 instituted under section 2004(b)(2) of the Revised Statutes (42 U.S.C.
+			 1971(b)(2)) in connection with such allegations; and</text>
+						</subparagraph><subparagraph id="H68BEB362301B4153A888006326CA61D4"><enum>(K)</enum><text>any criminal
+			 prosecution instituted under title 18, United States Code, in connection with
+			 such allegations.</text>
+						</subparagraph></paragraph><paragraph id="H878FED0EF5F4486B8360D6523866EEB6"><enum>(3)</enum><header>Report made
+			 public</header><text>On the date that the Attorney General submits the report
+			 required under paragraph (1), the Attorney General shall also make the report
+			 publicly available through the Internet and other appropriate means.</text>
+					</paragraph></subsection><subsection commented="no" id="H9D91C8D89AA447178679A5187F6C594F"><enum>(d)</enum><header>Delegation of
+			 duties</header>
+					<paragraph commented="no" id="HFDDB9F1D022141C9BA213BB28701B415"><enum>(1)</enum><header>In
+			 general</header><text>The Attorney General shall delegate the responsibilities
+			 under this section to a Voting Integrity Task Force established under paragraph
+			 (2).</text>
+					</paragraph><paragraph commented="no" id="H1EC847B89F894484805383588F38B9C8"><enum>(2)</enum><header>Voting integrity
+			 task force</header>
+						<subparagraph commented="no" id="H1843B670910B4804AB24CB76D2071489"><enum>(A)</enum><header>In
+			 general</header><text>The Attorney General shall establish a Voting Integrity
+			 Task Force to carry out the requirements of this section with respect to any
+			 general, primary, run-off, or special election for Federal office.</text>
+						</subparagraph><subparagraph commented="no" display-inline="no-display-inline" id="HBE6BBC34581E46DDA6E182D3DF1FBE23"><enum>(B)</enum><header>Composition</header><text>Any
+			 Voting Integrity Task Force established under paragraph (1) shall be under the
+			 direction of the Assistant Attorney General for the Civil Rights Division and
+			 the Assistant Attorney General for the Criminal Division, jointly.</text>
+						</subparagraph></paragraph></subsection><subsection commented="no" id="H1202885E1A784B9F9F31A4B7BD2F6063"><enum>(e)</enum><header>Federal
+			 office</header><text>For purposes of this section, the term <term>Federal
+			 office</term> means the office of President, Vice President, presidential
+			 elector, Member of the Senate, Member of the House of Representatives, or
+			 Delegate or Commissioner from a territory or possession of the United
+			 States.</text>
+				</subsection></section></title><title id="H7245B1585EFA481185AD269DAF9D12EC"><enum>III</enum><header>Prohibiting
+			 Voter Caging</header>
+			<section id="HF4C449BF74A646548690651D4314BF1C"><enum>301.</enum><header>Voter caging
+			 and other questionable challenges prohibited</header>
+				<subsection id="HC88C184EC8E645F1BC8E3139D0E296FA"><enum>(a)</enum><header>In
+			 General</header><text><external-xref legal-doc="usc-chapter" parsable-cite="usc-chapter/18/29">Chapter 29</external-xref> of title 18, United States Code, as amended by
+			 section 201(a), is amended by adding at the end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H398656518B5740FAB1594506AA6D6D67" style="USC">
+						<section id="H82692BB81F3E43808DF2AFBA38E04B9"><enum>619.</enum><header>Voter caging and
+				other questionable challenges</header>
+							<subsection id="H2056ADE06550425E89E0DA948DF528A0"><enum>(a)</enum><header>Definitions</header><text>In
+				this section—</text>
+								<paragraph id="HAA441346212A4D08806D0182695B366D"><enum>(1)</enum><text display-inline="yes-display-inline">the term <term>voter caging document</term>
+				means—</text>
+									<subparagraph id="H04612089554D480F84F67BCB69E80046"><enum>(A)</enum><text>a nonforwardable
+				document that is returned to the sender or a third party as undelivered or
+				undeliverable despite an attempt to deliver such document to the address of a
+				registered voter or applicant; or</text>
+									</subparagraph><subparagraph id="H04CD9FE2F42E45B59C341B8C733F6B00"><enum>(B)</enum><text>any document with
+				instructions to an addressee that the document be returned to the sender or a
+				third party but is not so returned, despite an attempt to deliver such document
+				to the address of a registered voter or applicant, unless at least two Federal
+				election cycles have passed since the date of the attempted delivery;</text>
+									</subparagraph></paragraph><paragraph id="H390EAA971AA84DBDB637F6DD1D85A800"><enum>(2)</enum><text>the term
+				<term>voter caging list</term> means a list of individuals compiled from voter
+				caging documents; and</text>
+								</paragraph><paragraph id="H2E5DAFA746884BCFA02470E38700B58B"><enum>(3)</enum><text>the term
+				<term>unverified match list</term> means a list produced by matching the
+				information of registered voters or applicants for voter registration to a list
+				of individuals who are ineligible to vote in the registrar’s jurisdiction, by
+				virtue of death, conviction, change of address, or otherwise; unless one of the
+				pieces of information matched includes a signature, photograph, or unique
+				identifying number ensuring that the information from each source refers to the
+				same individual.</text>
+								</paragraph></subsection><subsection id="H1CBB96BF193A434BAF6900902C00F188"><enum>(b)</enum><header>Prohibition
+				Against Voter Caging</header><text display-inline="yes-display-inline">No State
+				or local election official shall prevent an individual from registering or
+				voting in any election for Federal office, or permit in connection with any
+				election for Federal office a formal challenge under State law to an
+				individual’s registration status or eligibility to vote, if the basis for such
+				decision is evidence consisting of—</text>
+								<paragraph id="H8ED8EC42784A4F26B6C81E7D38A402D8"><enum>(1)</enum><text>a voter caging
+				document or voter caging list;</text>
+								</paragraph><paragraph id="H1549773E1880431FB1B5947E92062F62"><enum>(2)</enum><text>an unverified
+				match list;</text>
+								</paragraph><paragraph id="H53D00B7CFBF34101A73FD04C14C29B00"><enum>(3)</enum><text display-inline="yes-display-inline">an error or omission on any record or paper
+				relating to any application, registration, or other act requisite to voting, if
+				such error or omission is not material to an individual’s eligibility to vote
+				under section 2004 of the Revised Statutes, as amended (42 U.S.C.
+				1971(a)(2)(B)); or</text>
+								</paragraph><paragraph id="H8C8983AC6230477C9EDA5E1BF8C77E84"><enum>(4)</enum><text>any other evidence
+				so designated for purposes of this section by the Election Assistance
+				Commission,</text>
+								</paragraph><continuation-text continuation-text-level="subsection">except
+				that the election official may use such evidence if it is corroborated by
+				independent evidence of the individual’s ineligibility to register or vote.</continuation-text></subsection><subsection id="H8CD2B2F195E54590949EA060D07073C5"><enum>(c)</enum><header>Requirements For
+				Challenges by Persons Other Than Election Officials</header>
+								<paragraph id="H762A7A4E35DC46588C00A9783FF64B79"><enum>(1)</enum><header>Attestation of
+				first-hand knowledge of ineligibility</header><text display-inline="yes-display-inline">No person, other than a State or local
+				election official, shall submit a formal challenge to an individual’s
+				eligibility to register to vote in an election for Federal office or to vote in
+				an election for Federal office unless that challenge is supported by personal,
+				first-hand knowledge regarding the grounds for ineligibility which is—</text>
+									<subparagraph id="H4EAE92E438A84453BBC376136855897B"><enum>(A)</enum><text>documented in
+				writing; and</text>
+									</subparagraph><subparagraph id="HC88E61F8624640D49FA060C289B7FEF"><enum>(B)</enum><text>subject to an oath
+				or attestation under penalty of perjury that the individual who is the subject
+				of the challenge is ineligible to register to vote or vote in that
+				election.</text>
+									</subparagraph></paragraph><paragraph id="H6151567AC0CE49EF9221E349CE104BB"><enum>(2)</enum><header>Prohibiting
+				challenges based on certain evidence</header><text display-inline="yes-display-inline">No person, other than a State or local
+				election official, shall submit a formal challenge to an individual’s
+				eligibility to register to vote in an election for Federal office or to vote in
+				an election for Federal office if the basis for such challenge is evidence
+				consisting of—</text>
+									<subparagraph id="H0C41890D0AC04D09B6FEB0C69815A8C8"><enum>(A)</enum><text>a voter caging
+				document or voter caging list;</text>
+									</subparagraph><subparagraph id="HA97522B679284C258CAC513C883D316F"><enum>(B)</enum><text>an unverified
+				match list;</text>
+									</subparagraph><subparagraph id="H5AAEC4CCF7704549B2B0104336734141"><enum>(C)</enum><text>an error or
+				omission on any record or paper relating to any application, registration, or
+				other act requisite to voting, if such error or omission is not material to an
+				individual’s eligibility to vote under section 2004 of the Revised Statutes, as
+				amended (<external-xref legal-doc="usc" parsable-cite="usc/42/1971">42 U.S.C. 1971(a)(2)(B)</external-xref>); or</text>
+									</subparagraph><subparagraph id="H38C32B62F20643CE9023ED999D4E009B"><enum>(D)</enum><text display-inline="yes-display-inline">any other evidence so designated for
+				purposes of this section by the Election Assistance Commission.</text>
+									</subparagraph></paragraph></subsection><subsection id="H1C0A751E03BD4401932173B0C59302B"><enum>(d)</enum><header>Penalties for
+				Knowing Misconduct</header><text display-inline="yes-display-inline">Whoever
+				knowingly challenges the eligibility of one or more individuals to register or
+				vote or knowingly causes the eligibility of such individuals to be challenged
+				in violation of this section with the intent that one or more eligible voters
+				be disqualified, shall be fined under this title or imprisoned not more than 5
+				years, or both, for each such violation. Each violation shall be a separate
+				offense.</text>
+							</subsection><subsection id="HC8302457F1CD49218CD171ABBA7370ED"><enum>(e)</enum><header>No Effect on
+				Related Laws</header><text display-inline="yes-display-inline">Nothing in this
+				section is intended to override the protections of the National Voter
+				Registration Act of 1993 (<external-xref legal-doc="usc" parsable-cite="usc/42/1973gg">42 U.S.C. 1973gg et seq.</external-xref>) or to affect the Voting
+				Rights Act of 1965 (42 U.S.C. 1973 et
+				seq.).</text>
+							</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection><subsection id="HBD11834F88524DEBBEE523A9EADF60D2"><enum>(b)</enum><header>Clerical
+			 Amendment</header><text>The table of sections for <external-xref legal-doc="usc-chapter" parsable-cite="usc-chapter/18/29">chapter 29</external-xref> of title 18,
+			 United States Code, as amended by section 201(b), is amended by adding at the
+			 end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="HF83D00D808F84A538000BC885B00B1F4" style="USC">
+						<toc regeneration="no-regeneration">
+							<toc-entry level="section">619. Voter caging and other questionable
+				challenges.</toc-entry>
+						</toc>
+						<after-quoted-block>.</after-quoted-block></quoted-block>
+				</subsection></section><section id="HFCAFF4181F5544748D3D3BC00A7ABAE"><enum>302.</enum><header>Severability</header><text display-inline="no-display-inline">If any provision of this title or any
+			 amendment made by this title, or the application of a provision to any person
+			 or circumstance, is held to be unconstitutional, the remainder of this title
+			 and the amendments made by this title, and the application of the provisions to
+			 any person or circumstance, shall not be affected by the holding.</text>
+			</section></title><title id="HB92B0378CE514560A4148E6D59628962"><enum>IV</enum><header>Restoring Voting
+			 Rights</header>
+			<section id="HE8F24C06B9C441959F7F9739E7732D17"><enum>401.</enum><header>Rights of
+			 citizens</header><text display-inline="no-display-inline">The right of an
+			 individual who is a citizen of the United States to vote in any election for
+			 Federal office shall not be denied or abridged because that individual has been
+			 convicted of a criminal offense unless such individual is serving a felony
+			 sentence in a correctional institution or facility at the time of the
+			 election.</text>
+			</section><section id="HCA6549E767FC4222B0076814009836B4"><enum>402.</enum><header>Enforcement</header>
+				<subsection id="HDA3035C6E5D14DB689AD13C000E4A41"><enum>(a)</enum><header>Attorney
+			 general</header><text>The Attorney General may, in a civil action, obtain such
+			 declaratory or injunctive relief as is necessary to remedy a violation of this
+			 title.</text>
+				</subsection><subsection id="H657FCE7A92EE484EA92D63E8936D2DAB"><enum>(b)</enum><header>Private right of
+			 action</header>
+					<paragraph id="H417CCCCBC25848AC8C9504B981BDC5C"><enum>(1)</enum><header>Notice to
+			 election official</header><text>A person who is aggrieved by a violation of
+			 this title may provide written notice of the violation to the chief election
+			 official of the State involved.</text>
+					</paragraph><paragraph id="HD78BFC46B172433F8D036C93D3602879"><enum>(2)</enum><header>Action
+			 permitted</header><text>Except as provided in paragraph (3), if the violation
+			 is not corrected within 90 days after receipt of a notice under paragraph (1),
+			 or within 20 days after receipt of the notice if the violation occurred within
+			 120 days before the date of an election for Federal office, the aggrieved
+			 person may, in a civil action obtain declaratory or injunctive relief with
+			 respect to the violation.</text>
+					</paragraph><paragraph id="H268E25A3BF72421582ADBE4E13DCD545"><enum>(3)</enum><header>Waiver of notice
+			 for violations occurring near date of election</header><text>If the violation
+			 occurred within 30 days before the date of an election for Federal office, the
+			 aggrieved person need not provide notice to the chief election official of the
+			 State under paragraph (1) before bringing a civil action to obtain declaratory
+			 or injunctive relief with respect to the violation.</text>
+					</paragraph></subsection></section><section id="HC6CED13299C3451B9F8D00DCB9038348"><enum>403.</enum><header>Notification of
+			 restoration of voting rights</header>
+				<subsection id="H9EA21423E3934B088F00C716CEF0047"><enum>(a)</enum><header>State
+			 notification</header>
+					<paragraph id="H6D0DE8FF406848FB98A0EB64D711CFB"><enum>(1)</enum><header>Notification</header><text>On
+			 the date determined under paragraph (2), each State shall notify in writing any
+			 individual who has been convicted of a criminal offense under the law of that
+			 State that such individual has the right to vote in an election for Federal
+			 office pursuant to this title and may register to vote in any such
+			 election.</text>
+					</paragraph><paragraph id="H73E7E364551642B7B1EFBE259E3CE616"><enum>(2)</enum><header>Date of
+			 notification</header>
+						<subparagraph id="HBEBD1E57216D4BD69E83F736FE232660"><enum>(A)</enum><header>Felony
+			 conviction</header><text>In the case of such an individual who has been
+			 convicted of a felony, the notification required under paragraph (1) shall be
+			 given on the date on which the individual—</text>
+							<clause id="H5DBB8A750859410FB64F3193C502C4DF"><enum>(i)</enum><text>is
+			 sentenced to serve only a term of probation; or</text>
+							</clause><clause id="HE94811CBDA0E4EC3911CEDEA92764B69"><enum>(ii)</enum><text>is
+			 released from the custody of that State (other than to the custody of another
+			 State or the Federal Government to serve a term of imprisonment for a felony
+			 conviction).</text>
+							</clause></subparagraph><subparagraph id="HB8CC35442B554A4AA436C400D9F9931"><enum>(B)</enum><header>Misdemeanor
+			 conviction</header><text>In the case of such an individual who has been
+			 convicted of a misdemeanor, the notification required under paragraph (1) shall
+			 be given on the date on which such individual is sentenced.</text>
+						</subparagraph></paragraph></subsection><subsection id="H9FAEFD56280148EDBA69EE0713ECCD0"><enum>(b)</enum><header>Federal
+			 notification</header>
+					<paragraph id="HF72B57507CCC4DD7B3A7F5A22EB89459"><enum>(1)</enum><header>Notification</header><text>On
+			 the date determined under paragraph (2), the Director of the Bureau of Prisons
+			 shall notify in writing any individual who has been convicted of a criminal
+			 offense under Federal law that such individual has the right to vote in an
+			 election for Federal office pursuant to this title and may register to vote in
+			 any such election.</text>
+					</paragraph><paragraph id="HFE396328D4EB47E9B7A791569B895783"><enum>(2)</enum><header>Date of
+			 notification</header>
+						<subparagraph id="H8C1C5AB1E1EC407ABDF81474E5000478"><enum>(A)</enum><header>Felony
+			 conviction</header><text>In the case of such an individual who has been
+			 convicted of a felony, the notification required under paragraph (1) shall be
+			 given on the date on which the individual—</text>
+							<clause id="H1E2522CF89314480B328E3E2FD982160"><enum>(i)</enum><text>is
+			 sentenced to serve only a term of probation by a court established by an Act of
+			 Congress; or</text>
+							</clause><clause id="HFC91EE7BA47040CAAB6C0607112B1CE2"><enum>(ii)</enum><text>is
+			 released from the custody of the Bureau of Prisons (other than to the custody
+			 of a State to serve a term of imprisonment for a felony conviction).</text>
+							</clause></subparagraph><subparagraph id="HDB1062E15336415EB1EB49DADE00D000"><enum>(B)</enum><header>Misdemeanor
+			 conviction</header><text>In the case of such an individual who has been
+			 convicted of a misdemeanor, the notification required under paragraph (1) shall
+			 be given on the date on which such individual is sentenced.</text>
+						</subparagraph></paragraph></subsection></section><section id="HEA3110F05BA5443B8FABF8D9686DDEE"><enum>404.</enum><header>Definitions</header><text display-inline="no-display-inline">For purposes of this title:</text>
+				<paragraph id="HD6B9221372824C45A6D6A202F8CBB83C"><enum>(1)</enum><header>Correctional
+			 institution or facility</header><text>The term <term>correctional institution
+			 or facility</term> means any prison, penitentiary, jail, or other institution
+			 or facility for the confinement of individuals convicted of criminal offenses,
+			 whether publicly or privately operated, except that such term does not include
+			 any residential community treatment center (or similar public or private
+			 facility).</text>
+				</paragraph><paragraph id="H33CC6BAC06454592B6A53816D3740091"><enum>(2)</enum><header>Election</header><text>The
+			 term <term>election</term> means—</text>
+					<subparagraph id="HFAB15083D824475DAE6678B2202707DB"><enum>(A)</enum><text>a general,
+			 special, primary, or runoff election;</text>
+					</subparagraph><subparagraph id="H783A8ABB0A4E433990AFD9C3948E6D39"><enum>(B)</enum><text>a convention or
+			 caucus of a political party held to nominate a candidate;</text>
+					</subparagraph><subparagraph id="HE0A8BFFCD38C4E02B9B81870493E5591"><enum>(C)</enum><text>a primary election
+			 held for the selection of delegates to a national nominating convention of a
+			 political party; or</text>
+					</subparagraph><subparagraph id="HA4214B323DB84E3FB7D08CCF63433C27"><enum>(D)</enum><text>a primary election
+			 held for the expression of a preference for the nomination of persons for
+			 election to the office of President.</text>
+					</subparagraph></paragraph><paragraph id="HD3B526A3C6644790B097869289BDFBE7"><enum>(3)</enum><header>Federal
+			 office</header><text>The term <term>Federal office</term> means the office of
+			 President or Vice President of the United States, or of Senator or
+			 Representative in, or Delegate or Resident Commissioner to, the Congress of the
+			 United States.</text>
+				</paragraph><paragraph id="H63E79CA4FE304512952B39A1EDE56D4F"><enum>(4)</enum><header>Probation</header><text>The
+			 term <term>probation</term> means probation, imposed by a Federal, State, or
+			 local court, with or without a condition on the individual involved
+			 concerning—</text>
+					<subparagraph id="H5A962703EF134A5A005F7369721828D4"><enum>(A)</enum><text>the individual’s
+			 freedom of movement;</text>
+					</subparagraph><subparagraph id="H9C58C32B381045078656FFEC7D752FD3"><enum>(B)</enum><text>the payment of
+			 damages by the individual;</text>
+					</subparagraph><subparagraph id="H000D404F42B54F08892F40B7B2E99A1"><enum>(C)</enum><text>periodic reporting
+			 by the individual to an officer of the court; or</text>
+					</subparagraph><subparagraph id="HDEC94BAE4FF146F49D07362E351300C0"><enum>(D)</enum><text>supervision of the
+			 individual by an officer of the court.</text>
+					</subparagraph></paragraph></section><section id="HF12DA6544450409893912C48935B34F1"><enum>405.</enum><header>Relation to
+			 other laws</header>
+				<subsection id="H3AFB5C6823E545A0A75200E51D598478"><enum>(a)</enum><header>State laws
+			 relating to voting rights</header><text>Nothing in this title shall be
+			 construed to prohibit the States enacting any State law which affords the right
+			 to vote in any election for Federal office on terms less restrictive than those
+			 established by this title.</text>
+				</subsection><subsection id="H1C598EE6AC7B4A28946FDB9DDED2B2EE"><enum>(b)</enum><header>Certain Federal
+			 Acts</header><text>The rights and remedies established by this title are in
+			 addition to all other rights and remedies provided by law, and neither rights
+			 and remedies established by this title shall supersede, restrict, or limit the
+			 application of the Voting Rights Act of 1965 (<external-xref legal-doc="usc" parsable-cite="usc/42/1973">42 U.S.C. 1973 et seq.</external-xref>) or the
+			 National Voter Registration Act (42 U.S.C. 1973–gg).</text>
+				</subsection></section><section id="HB5EB7AAF7B4F4294B25C21AF97C900E8"><enum>406.</enum><header>Federal prison
+			 funds</header><text display-inline="no-display-inline">No State, unit of local
+			 government, or other person may receive or use, to construct or otherwise
+			 improve a prison, jail, or other place of incarceration, any Federal grant
+			 amounts unless that person has in effect a program under which each individual
+			 incarcerated in that person’s jurisdiction who is a citizen of the United
+			 States is notified, upon release from such incarceration, of that individual’s
+			 rights under section 401.</text>
+			</section><section id="HACDB7677E9E34C9596E64C68D9239F61"><enum>407.</enum><header>Effective
+			 date</header><text display-inline="no-display-inline">This title shall apply to
+			 citizens of the United States voting in any election for Federal office held
+			 after the date of the enactment of this Act.</text>
+			</section></title><title id="H44E7385E53C94D89B975A0B14900F33D"><enum>V</enum><header>Election Day as
+			 Legal Public Holiday</header>
+			<section id="H382E5A7C69104CA08CF3AF7E83C4515"><enum>501.</enum><header>Treatment of
+			 election day in same manner as legal public holiday for purposes of Federal
+			 employment</header><text display-inline="no-display-inline">For purposes of any
+			 law relating to Federal employment, the Tuesday next after the first Monday in
+			 November in 2010 and each even-numbered year thereafter shall be treated in the
+			 same manner as a legal public holiday described in <external-xref legal-doc="usc" parsable-cite="usc/5/6103">section 6103</external-xref> of title 5,
+			 United States Code.</text>
+			</section><section id="HDBA47AE87AFE4FD999AF8525B8C01011"><enum>502.</enum><header>Study by
+			 Comptroller General of impact on voter participation</header>
+				<subsection id="HD83D088B38BD4C63BBD43BED08D55C8D"><enum>(a)</enum><header>In
+			 general</header><text>The Comptroller General shall conduct a study of the
+			 impact of section 501 on voter participation.</text>
+				</subsection><subsection id="HE95FDC1689444C86B000D2FCD5B6E25"><enum>(b)</enum><header>Report</header><text>Not
+			 later than May 1, 2015, the Comptroller General shall submit a report to
+			 Congress and the President on the results of the study conducted under
+			 subsection (a).</text>
+				</subsection></section><section id="HB3C66F869C1841AE94007BFA761EA6AA"><enum>503.</enum><header>Sense of
+			 Congress regarding treatment of day by private employers</header><text display-inline="no-display-inline">It is the sense of Congress that private
+			 employers in the United States should give their employees a day off on the
+			 Tuesday next after the first Monday in November in 2010 and each even-numbered
+			 year thereafter to enable the employees to cast votes in the elections held on
+			 that day.</text>
+			</section></title></legis-body>
+</bill>
+
+
