@@ -91,6 +91,8 @@
         </xsl:if>
     </xsl:template>
     
+<!-- The preceding is very important. -->
+
 
     <xsl:template match="paragraph">
         <p class="bodyPara"><a name="{@id}"></a>
