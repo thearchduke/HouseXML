@@ -10,6 +10,9 @@
         XSL stylesheet to transform & make more useful bills from xml.house.gov
         Some rights reserved, under the CC Attribution-ShareAlike 3.0 Unported License.
             (Basically, drop me a note & credit if for whatever reason you use this)
+            
+        TO-DO:
+            ::Make left column for metadata like votes, and possibly that map I discussed, sponsors, bill status, etc.
 -->
 
     <xsl:template match="bill">
