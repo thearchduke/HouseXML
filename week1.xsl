@@ -56,6 +56,11 @@
     <xsl:template match="toc-entry[ancestor::node()[@container-level='legis-body-container']]">
         <br />
             <xsl:choose>
+                <xsl:when test="@level='section'">
+                    <a href="#{@idref}">                     
+                        <xsl:apply-templates></xsl:apply-templates>
+                    </a>
+                </xsl:when>
                 <xsl:when test="@level='title'">
                     <a href="#{@idref}">                     
                     <xsl:apply-templates></xsl:apply-templates>
