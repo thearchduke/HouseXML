@@ -5,6 +5,13 @@
     <xsl:output method="html"></xsl:output>
     
 
+<!-- Current version: 0.1 (Week 1)
+        Author: J. Tynan Burke
+        XSL stylesheet to transform & make more useful bills from xml.house.gov
+        Some rights reserved, under the CC Attribution-ShareAlike 3.0 Unported License.
+            (Basically, drop me a note & credit if for whatever reason you use this)
+-->
+
     <xsl:template match="bill">
         <html>
             <head>
@@ -44,6 +51,7 @@
         </html>
     </xsl:template>
     
+    <!-- Make a hideable TOC, but only the main 'head' TOC -->
     <xsl:template match="toc[@container-level='legis-body-container']">
         <br/><a class="toggle" onclick="toggleVis('toc')" href="#">Show/Hide Table of Contents</a>
         <br/><div class="toc" id="toc" style="display:block;"><span style="font-size: 18px; font-weight: bold;">Table of Contents:</span><br />
@@ -52,7 +60,10 @@
     </xsl:template>
 
 
-    <!-- Thanks, http://dh.obdurodon.org/avt.html -->
+    <!-- Thanks, http://dh.obdurodon.org/avt.html 
+         Makes appropriately-indented TOC entries. Question: What if the @container-level and 
+         @level conventions aren't followed?
+    -->
     <xsl:template match="toc-entry[ancestor::node()[@container-level='legis-body-container']]">
         <br />
             <xsl:choose>
@@ -96,7 +107,8 @@
         </xsl:if>
     </xsl:template>
     
-<!-- The preceding is very important. -->
+<!-- The preceding is very important for me to understand how it works. I think I'm getting it.
+    Thanks, professor! -->
 
 
     <xsl:template match="paragraph">
@@ -128,6 +140,7 @@
     </xsl:template>
     
 
+    <!-- Don't print metadata except as specified above -->
     <xsl:template match="form"></xsl:template>
     <xsl:template match="dublinCore"></xsl:template>
 
