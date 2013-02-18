@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
+    exclude-result-prefixes="dc"
     version="1.0">
     <xsl:output method="xml"
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-        doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"></xsl:output>
+        doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+            ></xsl:output>
     
 
     <!-- See week2xhtmlBadBranch.xsl for some silly tests I was applying to all the template matches 
@@ -31,6 +33,8 @@
                 official structure is unlikely to be particularly impactful, and much more likely to break things than help things?
                 OTHER RANDOM NOTE: This became ten times faster, seemingly at random, after I wrote the preceding note.
                 Perhaps this computer knows what's good for it.
+
+            ::<enum> is not transforming properly inside of blockquotes. What gives?
     -->
     
     <xsl:template match="bill">
@@ -144,7 +148,7 @@
     </xsl:template>
 
     <xsl:template match="subsection">
-        <div class="subsection"><a name="{@id}"></a>
+        <div class="subsection"><a name="{@id}"></a><br/>
             <xsl:apply-templates></xsl:apply-templates>
         </div>
     </xsl:template>
@@ -158,6 +162,8 @@
 
     <!-- Don't print metadata except as specified above -->
     <xsl:template match="form"></xsl:template>
+
+
     <xsl:template match="dublinCore"></xsl:template>
 
     <!-- Experimental section 

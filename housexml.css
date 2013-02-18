@@ -1,4 +1,4 @@
-p.bodyPara {
+div.bodyPara {
 }
 
 div.billTitle {
@@ -20,6 +20,11 @@ span.header {
     font-weight: bold;
 }
 
+span.headerQuoted {
+    background-color: #eee;
+    font-weight: bold;
+}
+
 div.blockquote{
     background-color: #eee;
     margin-left: 45px;
@@ -29,4 +34,41 @@ div.blockquote{
 }
 
 div.afterBlockquote {
+}
+
+span.blockquote{
+    background-color: #eee;
+    margin-left: 45px;
+    margin-right: 100px;
+    border-left: 3px solid #bbb;
+    padding-left: 10px;
+    display: inline-block;
+    width: 700px;
+}
+
+span.afterBlockquote {
+}
+
+span.bodyParaQuoted{
+    background-color: #eee;
+}
+
+span.subsectionQuoted{
+    background-color: #eee;
+}
+
+span.sectionQuoted{
+    background-color: #eee;
+}
+
+span.textQuoted{
+    background-color: #eee;
+    display: inline-block;
+    width: 700px;
+    padding-left: 10px;
+}
+
+span.enumQuoted{
+    background-color: #eee;
+    display: inline-block;
 }
