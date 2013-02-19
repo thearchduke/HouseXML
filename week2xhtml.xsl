@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://www.w3.org/1999/xhtml" 
     exclude-result-prefixes="dc"
     version="1.0">
     <xsl:output method="xml"
@@ -8,6 +9,17 @@
         doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
             ></xsl:output>
     
+
+    <!-- NOTES FOR TOMORROW re: XHTML
+        ===============================================================================
+        housexmlXhtml.css is being successfully imported here, it's just that it's written wrong and doesn't work on XHTML.
+        Write it better.
+
+        NOTE TO SELF: 'Validates' doesn't mean 'is pretty'.
+    -->
+
+
+
     <!-- COMPLEX TRANSFORMATION SECTION
         ===========================================
         
@@ -27,6 +39,7 @@
         XSL stylesheet to transform & make more useful bills from xml.house.gov
         Some rights reserved, under the CC Attribution-ShareAlike 3.0 Unported License.
             (Basically, drop me a note & credit if for whatever reason you use this)
+            (Although why you would want to is beyond me, this is terrible)
             
         TO-DO:
             ::Make left column for metadata like votes, and possibly that map I discussed, sponsors, bill status, etc.
@@ -47,7 +60,7 @@
     -->
     
     <xsl:template match="bill">
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <html>
             <head>
 
                 <!-- I'm noticing that not everything is Dublin Core-ified, so let's try a when here
