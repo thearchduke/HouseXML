@@ -8,6 +8,15 @@
         doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
             ></xsl:output>
     
+    <!-- COMPLEX TRANSFORMATION SECTION
+        ===========================================
+        
+        
+
+        http://uscode.house.gov/quicksearch/get.plx?title=42&section=254b
+
+
+    -->
 
     <!-- See week2xhtmlBadBranch.xsl for some silly tests I was applying to all the template matches 
         because I hadn't realized that the problem was *just* that p cannot contain div, and turning the 
@@ -38,9 +47,8 @@
     -->
     
     <xsl:template match="bill">
-        <html>
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <link href="housexml.css" rel="stylesheet" type="text/css"/>
 
                 <!-- I'm noticing that not everything is Dublin Core-ified, so let's try a when here
                 NOTE: To be extended as we discover more title formats!
@@ -55,7 +63,8 @@
                         <title>Transforming Congress: <xsl:value-of select="//short-title[1]"></xsl:value-of></title>
                     </xsl:otherwise>
                 </xsl:choose>
-                
+
+                <link rel="stylesheet" type="text/css" href="housexmlXhtml.css"/>
                 
                 
                 <!-- Routine click to show/click to hide javascript -->
