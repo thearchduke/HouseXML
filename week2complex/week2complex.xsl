@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns="http://www.w3.org/1999/xhtml" 
     exclude-result-prefixes="dc"
-    version="1.0">
+    xmlns="http://www.w3.org/1999/xhtml" 
+    version="2.0">
     <xsl:output method="xml"
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
         doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -102,7 +102,7 @@
                     <xsl:for-each select="/bill/form/action/action-desc/cosponsor">
                         <xsl:variable name="congId" select="@name-id"></xsl:variable>
                         <xsl:variable select="document('congBios.xml')/congress/members/rep[id[text()=$congId]]" name="rep"></xsl:variable>
-                        <xsl:apply-templates></xsl:apply-templates>,&#xa0;<xsl:copy-of select="$rep/party"></xsl:copy-of>-<xsl:copy-of select="$rep/state"></xsl:copy-of>&#xa0;
+                        <xsl:apply-templates></xsl:apply-templates>,&#xa0;<xsl:value-of select="$rep/party"></xsl:value-of>-<xsl:value-of select="$rep/state"></xsl:value-of>&#xa0;
                         <a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index={$congId}">(bio)</a>
                         <br/>
                     </xsl:for-each>

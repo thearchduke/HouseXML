@@ -15,6 +15,8 @@
         housexmlXhtml.css is being successfully imported here, it's just that it's written wrong and doesn't work on XHTML.
         Write it better.
 
+        UPDATE: Never mind, the input document just didn't have enumerations marked out properly.
+
         NOTE TO SELF: 'Validates' doesn't mean 'is pretty'.
     -->
 
@@ -73,7 +75,7 @@
                         </title>
                     </xsl:when>
                     <xsl:otherwise>
-                        <title>Transforming Congress: <xsl:value-of select="//short-title[1]"></xsl:value-of></title>
+                        <title xmlns="http://purl.org/dc/elements/1.1/">Transforming Congress: <xsl:value-of select="//short-title[1]"></xsl:value-of></title>
                     </xsl:otherwise>
                 </xsl:choose>
 
