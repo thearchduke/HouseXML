@@ -29,10 +29,12 @@
                 -OK, I'm going to make an executive decision and limit this to the 111th congress. And just get an XML db and query it.
             ::Has it been signed by the president?
             ::For Cocoon application, implementation, let's have it do this to save us some time:
-                1. Get the XML document from xml.house.gov
-                2. Perform an identity transform that changes the DTD location to a local file so we don't have to download it every. single. time.
-                3. Perform the rest of the transformation on THAT.
-            ::Seriously, I need to learn SVG
+
+                The solution is NOT this!:
+                    1. Get the XML document from xml.house.gov
+                    2. Perform an identity transform that changes the DTD location to a local file so we don't have to download it every. single. time.
+                    3. Perform the rest of the transformation on THAT.
+            ::Seriously, I need to learn SVG.
 
         NEW FEATURES:
             ::Links to Cornell Law Library USC information (NOT COMPLETE, requires a coded @parsable-cite in external-xref; many references don't have this)
@@ -43,7 +45,7 @@
         QUESTIONS:
             ::<enum> is not transforming properly inside of blockquotes. What gives?
     -->
-    
+
     <xsl:template match="bill">
         <html>
             <head>
@@ -70,9 +72,12 @@
                         QUESTION: Why on earth do I need the non-breaking space there for it to output?
                         (If I don't have anything there, I get no meta's; putting anything at all there works though. -->
 
-                <xsl:for-each select="//dublinCore/child::node()">
+                <xsl:for-each select="//dc:*">
                     <xsl:if test="text()">
-                        <xsl:variable name="whichDC" select="substring-after(name(), 'dc:')"></xsl:variable>
+                            <!--
+                            <xsl:variable name="whichDC" select="substring-after(name(), 'dc:')"></xsl:variable>
+                            -->
+                        <xsl:variable name="whichDC" select="local-name()"></xsl:variable>
                         <xsl:variable name="dcValue" select="text()"></xsl:variable>
                         <meta name="DC.{$whichDC}" content="{$dcValue}"></meta>&#xa0;
                     </xsl:if>
@@ -141,7 +146,7 @@
         <br/><a class="toggle" onclick="toggleVis('toc')" href="#">Show/Hide Table of Contents</a>
         <br/><div class="toc" id="toc" style="display:block;"><span style="font-size: 18px; font-weight: bold;">Table of Contents:</span><br />
             <xsl:apply-templates></xsl:apply-templates>
-        </div>        
+        </div>
     </xsl:template>
 
 
@@ -164,7 +169,7 @@
                 </xsl:when>
              </xsl:choose>
             <!-- Thanks, semantically-marked sections! -->
-        
+
     </xsl:template>
 
     <xsl:template match="quoted-block">
@@ -241,7 +246,20 @@
         </a>
     </xsl:template>
 
-<!-- Names -->
+
+<!-- THE MAP! 
+    From votes.all.index.html, this xpath should select the right vote: 
+    /votes/vote[contains(@bill,"h111-2454") and contains(@title, "On Passage:")]
+    -->
+
+
+    <xsl:template match="legis-num">
+        Foo!
+        <xsl:apply-templates></xsl:apply-templates>
+        Bar!
+    </xsl:template>
+    
+
 
     
     <!-- Experimental section 
